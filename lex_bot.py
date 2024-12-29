@@ -3,13 +3,11 @@ import pandas as pd
 import os
 import re
 import openai
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.document_loaders import TextLoader
+
 from langchain.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.llms import OpenAI
 from langchain.chains import RetrievalQA
-from langchain.retrievers.self_query.base import SelfQueryRetriever
 import csv
 import json
 from time import sleep
@@ -23,11 +21,14 @@ from langchain_core.documents import Document
 from helper import clean_folder
 import texts
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 # Feldgrößen-Limit deutlich heraufsetzen (z.B. auf sys.maxsize)
 csv.field_size_limit(2**31 - 1)
 openai.api_key  = os.environ['OPENAI_API_KEY']
 persist_directory = './docs/chroma/'
-TEXT_FILES_PATH = Path("./docs/text")
 parquet_file = Path("./100354.parquet")
 csv_file = Path("./100354.csv")
 
@@ -107,18 +108,12 @@ class Lex():
             text = re.sub(r'(?m)^(\d+|§ \d+|\d+\.|\d+\)|[a-z]\))\s*\n', r'\1 ', text)
             return text
 
-        clean_folder(TEXT_FILES_PATH)
-        data['txt_filename'] = None
         for index, row in data.iterrows():
             text = row['text_of_law']
             if pd.notnull(text) and str(text).strip():
                 text = str(text)
-                file = TEXT_FILES_PATH / f"{int(row['index'])}.txt"
                 cleaned_text = clean_text(text)
-                with open(file, "w", encoding='utf-8') as f:
-                    f.write(cleaned_text)
                 data.loc[index,'text_of_law'] = cleaned_text
-                data.loc[index, 'txt_filename'] = file.name
         return data
     
     def embed_text(self, data):
@@ -196,7 +191,7 @@ class Lex():
         
 
     def show_chat(self):
-        question = st.text_input("**Frage eingeben**", "Was ist die Rechtsgrundlage für die Maskenpflicht in Basel?")
+        question = st.text_input(f"**{texts.default_question}")
         if st.button("Frage stellen"):
             retriever = self.vectorstore.as_retriever(search_kwargs={"k": 3})
             llm = OpenAI(temperature=0.0)
@@ -207,10 +202,10 @@ class Lex():
                 chain_type="stuff",
                 retriever=retriever
             )
-            question = "Du bist ein Rechtsexperte und beantwortest rechtliche Fragen basierend auf die Gesetzessammlung des Kantons Basel-Stadt. Antworte immer auf deutsch. Erwähne immer das Gesetz, auf welche du deine Antwort stützt.\nFrage:\n" + question
+            question = texts.llm_context.format(question)
             docs_ss = self.vectorstore.similarity_search(question,k=3)
             
-            st.write(qa_chain.run(question))
+            st.write(qa_chain.invoke(question))
             with st.expander("Dokumente"):
                 for doc in docs_ss:
                     link = self.data.loc[int(doc.metadata['doc'])]['original_url_de']

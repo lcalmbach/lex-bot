@@ -1,4 +1,5 @@
 .venv
 work
+docs/
 __pycache__
 *.csv

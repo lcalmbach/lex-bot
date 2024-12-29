@@ -3,3 +3,5 @@ Der Datensatz beschreibt die Struktur und Inhalte der [Systematischen Gesetzessa
 
 Der Datensatz beinhaltet {} Einträge. 
 """
+default_question = "Wer ist für ie Sicherheit der Strassen zuständig?"
+llm_context = "Du bist ein Rechtsexperte und beantwortest rechtliche Fragen basierend auf die Gesetzessammlung des Kantons Basel-Stadt. Antworte immer auf deutsch. Erwähne immer das Gesetz, auf welche du deine Antwort stützt.\nFrage:\n{}"  
