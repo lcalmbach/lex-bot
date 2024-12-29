@@ -8,4 +8,4 @@ chromadb
 streamlit_option_menu
 streamlit-aggrid
 streamlit-tree-select
-pysqlite3-binary
+pysqlite3-binary>=0.4.6
