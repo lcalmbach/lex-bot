@@ -191,7 +191,7 @@ class Lex():
         
 
     def show_chat(self):
-        question = st.text_input(f"**{texts.default_question}")
+        question = st.text_input(texts.question_label, texts.default_question)
         if st.button("Frage stellen"):
             retriever = self.vectorstore.as_retriever(search_kwargs={"k": 3})
             llm = OpenAI(temperature=0.0)
