@@ -1,0 +1,4044 @@
+[
+    {
+        "label": "Staatsrechtliche Grundlagen · Organisation",
+        "value": "695",
+        "children": [
+            {
+                "label": "Kantonsverfassung · Staatsgebiet · Regionale und grenzüberschreitende Zusammenarbeit",
+                "value": "183",
+                "children": [
+                    {
+                        "label": "Kantonsverfassung",
+                        "value": "241",
+                        "children": []
+                    },
+                    {
+                        "label": "Kantonsgebiet · Grenzbereinigungen",
+                        "value": "243",
+                        "children": []
+                    },
+                    {
+                        "label": "Kantonsgebiet · Grenzbereinigungen",
+                        "value": "244",
+                        "children": []
+                    },
+                    {
+                        "label": "Kantonsgebiet · Grenzbereinigungen",
+                        "value": "419",
+                        "children": []
+                    },
+                    {
+                        "label": "Kantonsgebiet · Grenzbereinigungen",
+                        "value": "420",
+                        "children": []
+                    },
+                    {
+                        "label": "Regionale Zusammenarbeit",
+                        "value": "249",
+                        "children": []
+                    },
+                    {
+                        "label": "Regionale Zusammenarbeit",
+                        "value": "424",
+                        "children": []
+                    },
+                    {
+                        "label": "Regionale Zusammenarbeit",
+                        "value": "937",
+                        "children": []
+                    },
+                    {
+                        "label": "Regionale Zusammenarbeit",
+                        "value": "938",
+                        "children": []
+                    },
+                    {
+                        "label": "Regionale Zusammenarbeit",
+                        "value": "939",
+                        "children": []
+                    },
+                    {
+                        "label": "Regionale Zusammenarbeit",
+                        "value": "940",
+                        "children": []
+                    },
+                    {
+                        "label": "Grenzüberschreitende Zusammenarbeit",
+                        "value": "425",
+                        "children": []
+                    },
+                    {
+                        "label": "Grenzüberschreitende Zusammenarbeit",
+                        "value": "426",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Bürgerrecht · Aufenthalt und Niederlassung · Innere Sicherheit",
+                "value": "355",
+                "children": [
+                    {
+                        "label": "Bürgerrecht",
+                        "value": "427",
+                        "children": []
+                    },
+                    {
+                        "label": "Bürgerrecht",
+                        "value": "428",
+                        "children": []
+                    },
+                    {
+                        "label": "Aufenthalt und Niederlassung",
+                        "value": "251",
+                        "children": []
+                    },
+                    {
+                        "label": "Aufenthalt und Niederlassung",
+                        "value": "252",
+                        "children": []
+                    },
+                    {
+                        "label": "Aufenthalt und Niederlassung",
+                        "value": "253",
+                        "children": []
+                    },
+                    {
+                        "label": "Aufenthalt und Niederlassung",
+                        "value": "254",
+                        "children": []
+                    },
+                    {
+                        "label": "Aufenthalt und Niederlassung",
+                        "value": "430",
+                        "children": []
+                    },
+                    {
+                        "label": "Aufenthalt und Niederlassung",
+                        "value": "943",
+                        "children": []
+                    },
+                    {
+                        "label": "Aufenthalt und Niederlassung",
+                        "value": "944",
+                        "children": []
+                    },
+                    {
+                        "label": "Innere Sicherheit",
+                        "value": "431",
+                        "children": []
+                    },
+                    {
+                        "label": "Innere Sicherheit",
+                        "value": "432",
+                        "children": []
+                    },
+                    {
+                        "label": "Innere Sicherheit",
+                        "value": "945",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Politische Rechte und Pflichten",
+                "value": "184",
+                "children": [
+                    {
+                        "label": "Initiative und Referendum",
+                        "value": "433",
+                        "children": []
+                    },
+                    {
+                        "label": "Wahlen und Abstimmungen",
+                        "value": "255",
+                        "children": []
+                    },
+                    {
+                        "label": "Wahlen und Abstimmungen",
+                        "value": "256",
+                        "children": []
+                    },
+                    {
+                        "label": "Wahlen und Abstimmungen",
+                        "value": "946",
+                        "children": []
+                    },
+                    {
+                        "label": "Wahlen und Abstimmungen",
+                        "value": "947",
+                        "children": []
+                    },
+                    {
+                        "label": "Rechtsetzungsverfahren",
+                        "value": "260",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausstand und Unvereinbarkeit",
+                        "value": "261",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausstand und Unvereinbarkeit",
+                        "value": "435",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausländische Auszeichnungen",
+                        "value": "436",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Gleichstellung",
+                "value": "185",
+                "children": []
+            },
+            {
+                "label": "Gleichstellung",
+                "value": "186",
+                "children": []
+            },
+            {
+                "label": "Gleichstellung",
+                "value": "356",
+                "children": []
+            },
+            {
+                "label": "Organisation des Kantons",
+                "value": "187",
+                "children": [
+                    {
+                        "label": "Publikation von Erlassen",
+                        "value": "262",
+                        "children": []
+                    },
+                    {
+                        "label": "Publikation von Erlassen",
+                        "value": "438",
+                        "children": []
+                    },
+                    {
+                        "label": "Publikation von Erlassen",
+                        "value": "437",
+                        "children": []
+                    },
+                    {
+                        "label": "Grosser Rat · Ombudsfrau · Ombudsmann",
+                        "value": "440",
+                        "children": []
+                    },
+                    {
+                        "label": "Grosser Rat · Ombudsfrau · Ombudsmann",
+                        "value": "439",
+                        "children": []
+                    },
+                    {
+                        "label": "Grosser Rat · Ombudsfrau · Ombudsmann",
+                        "value": "441",
+                        "children": []
+                    },
+                    {
+                        "label": "Grosser Rat · Ombudsfrau · Ombudsmann",
+                        "value": "442",
+                        "children": []
+                    },
+                    {
+                        "label": "Grosser Rat · Ombudsfrau · Ombudsmann",
+                        "value": "263",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "951",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "950",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "949",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "953",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "450",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "449",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "448",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "447",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "954",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "955",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "956",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "952",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "452",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "451",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "274",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "266",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "267",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "268",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "269",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "270",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "271",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "272",
+                        "children": []
+                    },
+                    {
+                        "label": "Regierung und Verwaltung · Verwaltungsgebühren",
+                        "value": "273",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "281",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "965",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "964",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "963",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "962",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "961",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "472",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "471",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "470",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "469",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "468",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "467",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "466",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "465",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "464",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "463",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "966",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "279",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "280",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "282",
+                        "children": []
+                    },
+                    {
+                        "label": "Gerichte · Staatsanwaltschaft · Strafverfolgungsbehörden",
+                        "value": "967",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Staatspersonal",
+                "value": "724",
+                "children": [
+                    {
+                        "label": "Staatspersonal",
+                        "value": "970",
+                        "children": []
+                    },
+                    {
+                        "label": "Haftung des Staates",
+                        "value": "971",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstverhältnis",
+                        "value": "285",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstverhältnis",
+                        "value": "477",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstverhältnis",
+                        "value": "476",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstverhältnis",
+                        "value": "475",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstverhältnis",
+                        "value": "474",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstverhältnis",
+                        "value": "972",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstverhältnis",
+                        "value": "974",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstverhältnis",
+                        "value": "973",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstverhältnis",
+                        "value": "289",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstverhältnis",
+                        "value": "288",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstverhältnis",
+                        "value": "287",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstverhältnis",
+                        "value": "286",
+                        "children": []
+                    },
+                    {
+                        "label": "Unterkunft · Verpflegung · Bekleidung · Parkplätze",
+                        "value": "291",
+                        "children": []
+                    },
+                    {
+                        "label": "Unterkunft · Verpflegung · Bekleidung · Parkplätze",
+                        "value": "479",
+                        "children": []
+                    },
+                    {
+                        "label": "Unterkunft · Verpflegung · Bekleidung · Parkplätze",
+                        "value": "480",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "977",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "486",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "978",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "979",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "976",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "485",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "481",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "483",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "292",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "293",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "294",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "295",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "296",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "297",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "484",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "298",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "980",
+                        "children": []
+                    },
+                    {
+                        "label": "Lohn und Entschädigungen",
+                        "value": "482",
+                        "children": []
+                    },
+                    {
+                        "label": "Fürsorge des Staates bei Unfällen und Erkrankungen",
+                        "value": "982",
+                        "children": []
+                    },
+                    {
+                        "label": "Pensionsversicherung",
+                        "value": "488",
+                        "children": []
+                    },
+                    {
+                        "label": "Pensionsversicherung",
+                        "value": "300",
+                        "children": []
+                    },
+                    {
+                        "label": "Mitspracherecht und Vorschlagswesen",
+                        "value": "492",
+                        "children": []
+                    },
+                    {
+                        "label": "Mitspracherecht und Vorschlagswesen",
+                        "value": "491",
+                        "children": []
+                    },
+                    {
+                        "label": "Mitspracherecht und Vorschlagswesen",
+                        "value": "490",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Gemeinden",
+                "value": "360",
+                "children": [
+                    {
+                        "label": "Gemeinden",
+                        "value": "301",
+                        "children": []
+                    },
+                    {
+                        "label": "Gemeinden",
+                        "value": "302",
+                        "children": []
+                    },
+                    {
+                        "label": "Gemeinden",
+                        "value": "983",
+                        "children": []
+                    },
+                    {
+                        "label": "Gemeinden",
+                        "value": "984",
+                        "children": []
+                    },
+                    {
+                        "label": "Einwohnergemeinde Basel",
+                        "value": "493",
+                        "children": []
+                    },
+                    {
+                        "label": "Einwohnergemeinde Basel",
+                        "value": "494",
+                        "children": []
+                    },
+                    {
+                        "label": "Einwohnergemeinde Basel",
+                        "value": "495",
+                        "children": []
+                    },
+                    {
+                        "label": "Einwohnergemeinde Basel",
+                        "value": "985",
+                        "children": []
+                    },
+                    {
+                        "label": "Einwohnergemeinde Basel",
+                        "value": "986",
+                        "children": []
+                    },
+                    {
+                        "label": "Einwohnergemeinde Basel",
+                        "value": "987",
+                        "children": []
+                    },
+                    {
+                        "label": "Einwohnergemeinde Basel: Verhältnis zur Bürgergemeinde",
+                        "value": "303",
+                        "children": []
+                    },
+                    {
+                        "label": "Einwohnergemeinde Basel: Verhältnis zur Bürgergemeinde",
+                        "value": "497",
+                        "children": []
+                    },
+                    {
+                        "label": "Einwohnergemeinde Basel: Verhältnis zur Bürgergemeinde",
+                        "value": "988",
+                        "children": []
+                    },
+                    {
+                        "label": "Gemeinden Bettingen und Riehen",
+                        "value": "307",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Staat und Kirche",
+                "value": "189",
+                "children": []
+            },
+            {
+                "label": "Staat und Kirche",
+                "value": "361",
+                "children": []
+            },
+            {
+                "label": "Staat und Kirche",
+                "value": "362",
+                "children": []
+            },
+            {
+                "label": "Staat und Kirche",
+                "value": "902",
+                "children": []
+            }
+        ]
+    },
+    {
+        "label": "Zivilrecht · Strafrecht · Rechtspflege",
+        "value": "700",
+        "children": [
+            {
+                "label": "Bundeszivilrecht: Ergänzende kantonale Erlasse",
+                "value": "726",
+                "children": [
+                    {
+                        "label": "Einführungserlasse zum Zivilgesetzbuch",
+                        "value": "989",
+                        "children": []
+                    },
+                    {
+                        "label": "Einführungserlasse zum Zivilgesetzbuch",
+                        "value": "500",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "308",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "992",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "991",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "990",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "506",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "505",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "503",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "502",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "501",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "504",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "309",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "310",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "311",
+                        "children": []
+                    },
+                    {
+                        "label": "Personen- und Familienrecht: Spezielle Erlasse",
+                        "value": "312",
+                        "children": []
+                    },
+                    {
+                        "label": "Sachenrecht: Spezielle Erlasse",
+                        "value": "510",
+                        "children": []
+                    },
+                    {
+                        "label": "Sachenrecht: Spezielle Erlasse",
+                        "value": "995",
+                        "children": []
+                    },
+                    {
+                        "label": "Sachenrecht: Spezielle Erlasse",
+                        "value": "994",
+                        "children": []
+                    },
+                    {
+                        "label": "Sachenrecht: Spezielle Erlasse",
+                        "value": "993",
+                        "children": []
+                    },
+                    {
+                        "label": "Sachenrecht: Spezielle Erlasse",
+                        "value": "314",
+                        "children": []
+                    },
+                    {
+                        "label": "Sachenrecht: Spezielle Erlasse",
+                        "value": "313",
+                        "children": []
+                    },
+                    {
+                        "label": "Sachenrecht: Spezielle Erlasse",
+                        "value": "507",
+                        "children": []
+                    },
+                    {
+                        "label": "Sachenrecht: Spezielle Erlasse",
+                        "value": "508",
+                        "children": []
+                    },
+                    {
+                        "label": "Sachenrecht: Spezielle Erlasse",
+                        "value": "509",
+                        "children": []
+                    },
+                    {
+                        "label": "Obligationenrecht: Spezielle Erlasse",
+                        "value": "318",
+                        "children": []
+                    },
+                    {
+                        "label": "Obligationenrecht: Spezielle Erlasse",
+                        "value": "511",
+                        "children": []
+                    },
+                    {
+                        "label": "Obligationenrecht: Spezielle Erlasse",
+                        "value": "319",
+                        "children": []
+                    },
+                    {
+                        "label": "Obligationenrecht: Spezielle Erlasse",
+                        "value": "996",
+                        "children": []
+                    },
+                    {
+                        "label": "Obligationenrecht: Spezielle Erlasse",
+                        "value": "315",
+                        "children": []
+                    },
+                    {
+                        "label": "Obligationenrecht: Spezielle Erlasse",
+                        "value": "316",
+                        "children": []
+                    },
+                    {
+                        "label": "Obligationenrecht: Spezielle Erlasse",
+                        "value": "317",
+                        "children": []
+                    },
+                    {
+                        "label": "Obligationenrecht: Spezielle Erlasse",
+                        "value": "997",
+                        "children": []
+                    },
+                    {
+                        "label": "Urheberrecht · Gewerblicher Rechtsschutz · Kartellrecht: Spezielle Erlasse",
+                        "value": "512",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Zivilprozess und verwandte Gebiete",
+                "value": "363",
+                "children": [
+                    {
+                        "label": "Zivilprozess",
+                        "value": "513",
+                        "children": []
+                    },
+                    {
+                        "label": "Schiedsgerichtsbarkeit",
+                        "value": "320",
+                        "children": []
+                    },
+                    {
+                        "label": "Interkantonale Rechtshilfe in Zivilsachen",
+                        "value": "514",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Vollstreckung · Schuldbetreibung und Konkurs · Gant",
+                "value": "190",
+                "children": []
+            },
+            {
+                "label": "Vollstreckung · Schuldbetreibung und Konkurs · Gant",
+                "value": "364",
+                "children": []
+            },
+            {
+                "label": "Vollstreckung · Schuldbetreibung und Konkurs · Gant",
+                "value": "365",
+                "children": []
+            },
+            {
+                "label": "Vollstreckung · Schuldbetreibung und Konkurs · Gant",
+                "value": "903",
+                "children": []
+            },
+            {
+                "label": "Strafrecht und Strafrechtspflege",
+                "value": "191",
+                "children": [
+                    {
+                        "label": "Schweizerisches Strafgesetzbuch: Ergänzende kantonale Erlasse",
+                        "value": "515",
+                        "children": []
+                    },
+                    {
+                        "label": "Kantonales Übertretungsstrafrecht",
+                        "value": "516",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "520",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "1000",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "999",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "998",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "1001",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "519",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "518",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "1002",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "325",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "324",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "323",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "322",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "321",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafprozess · Rechtshilfe · Opferhilfe",
+                        "value": "517",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafvollzug · Gefängniswesen",
+                        "value": "521",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafvollzug · Gefängniswesen",
+                        "value": "522",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafvollzug · Gefängniswesen",
+                        "value": "523",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafvollzug · Gefängniswesen",
+                        "value": "524",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafvollzug · Gefängniswesen",
+                        "value": "692",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafvollzug · Gefängniswesen",
+                        "value": "730",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafvollzug · Gefängniswesen",
+                        "value": "731",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafvollzug · Gefängniswesen",
+                        "value": "0",
+                        "children": []
+                    },
+                    {
+                        "label": "Strafregister",
+                        "value": "1",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Verwaltungsgerichtsbarkeit",
+                "value": "193",
+                "children": []
+            },
+            {
+                "label": "Advokatur und Notariat",
+                "value": "366",
+                "children": [
+                    {
+                        "label": "Advokatur",
+                        "value": "2",
+                        "children": []
+                    },
+                    {
+                        "label": "Advokatur",
+                        "value": "732",
+                        "children": []
+                    },
+                    {
+                        "label": "Advokatur",
+                        "value": "733",
+                        "children": []
+                    },
+                    {
+                        "label": "Notariat",
+                        "value": "3",
+                        "children": []
+                    },
+                    {
+                        "label": "Notariat",
+                        "value": "525",
+                        "children": []
+                    },
+                    {
+                        "label": "Notariat",
+                        "value": "734",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Gesundheit",
+        "value": "332",
+        "children": [
+            {
+                "label": "Gesundheit",
+                "value": "194",
+                "children": []
+            },
+            {
+                "label": "Gesundheit",
+                "value": "367",
+                "children": []
+            },
+            {
+                "label": "Gesundheit",
+                "value": "727",
+                "children": []
+            },
+            {
+                "label": "Medizinalpersonen · Komplementärmedizin",
+                "value": "195",
+                "children": []
+            },
+            {
+                "label": "Medizinalpersonen · Komplementärmedizin",
+                "value": "196",
+                "children": []
+            },
+            {
+                "label": "Medizinalpersonen · Komplementärmedizin",
+                "value": "197",
+                "children": []
+            },
+            {
+                "label": "Medizinalpersonen · Komplementärmedizin",
+                "value": "729",
+                "children": []
+            },
+            {
+                "label": "Medizinalpersonen · Komplementärmedizin",
+                "value": "728",
+                "children": []
+            },
+            {
+                "label": "Medizinalpersonen · Komplementärmedizin",
+                "value": "368",
+                "children": []
+            },
+            {
+                "label": "Krankheiten · Kranken- und Betagtenpflege",
+                "value": "369",
+                "children": [
+                    {
+                        "label": "Übertragbare Krankheiten",
+                        "value": "4",
+                        "children": []
+                    },
+                    {
+                        "label": "Übertragbare Krankheiten",
+                        "value": "526",
+                        "children": []
+                    },
+                    {
+                        "label": "Alkohol- und Drogenmissbrauch",
+                        "value": "5",
+                        "children": []
+                    },
+                    {
+                        "label": "Psychisch kranke Personen",
+                        "value": "735",
+                        "children": []
+                    },
+                    {
+                        "label": "Zahnhygiene",
+                        "value": "527",
+                        "children": []
+                    },
+                    {
+                        "label": "Ärztliche Versorgung · Spitalexterne Kranken- und Betagtenpflege",
+                        "value": "6",
+                        "children": []
+                    },
+                    {
+                        "label": "Ärztliche Versorgung · Spitalexterne Kranken- und Betagtenpflege",
+                        "value": "528",
+                        "children": []
+                    },
+                    {
+                        "label": "Ärztliche Versorgung · Spitalexterne Kranken- und Betagtenpflege",
+                        "value": "736",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Spitäler · Sanitätsdienst",
+                "value": "370",
+                "children": [
+                    {
+                        "label": "Spitäler",
+                        "value": "529",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Spitäler",
+                        "value": "7",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Spitäler",
+                        "value": "530",
+                        "children": []
+                    },
+                    {
+                        "label": "Nichtstaatliche Spitäler",
+                        "value": "737",
+                        "children": []
+                    },
+                    {
+                        "label": "Koordination im Spitalwesen",
+                        "value": "531",
+                        "children": []
+                    },
+                    {
+                        "label": "Koordination im Spitalwesen",
+                        "value": "532",
+                        "children": []
+                    },
+                    {
+                        "label": "Sanitätsdienst",
+                        "value": "8",
+                        "children": []
+                    },
+                    {
+                        "label": "Sanitätsdienst",
+                        "value": "533",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Heilmittelkontrolle · Gifte",
+                "value": "371",
+                "children": [
+                    {
+                        "label": "Heilmittelkontrolle · Gifte",
+                        "value": "9",
+                        "children": []
+                    },
+                    {
+                        "label": "Heilmittelkontrolle · Gifte",
+                        "value": "10",
+                        "children": []
+                    },
+                    {
+                        "label": "Heilmittelkontrolle · Gifte",
+                        "value": "534",
+                        "children": []
+                    },
+                    {
+                        "label": "Heilmittelkontrolle · Gifte",
+                        "value": "738",
+                        "children": []
+                    },
+                    {
+                        "label": "Apotheken und Drogerien",
+                        "value": "535",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Lebensmittelpolizei",
+                "value": "904",
+                "children": [
+                    {
+                        "label": "Lebensmittelpolizei",
+                        "value": "11",
+                        "children": []
+                    },
+                    {
+                        "label": "Lebensmittelpolizei",
+                        "value": "536",
+                        "children": []
+                    },
+                    {
+                        "label": "Fleischkontrolle · Schlachthof",
+                        "value": "739",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Tierseuchen · Viehhandel · Tierhaltung",
+                "value": "372",
+                "children": [
+                    {
+                        "label": "Veterinäramt · Tierseuchenbekämpfung · Viehversicherung",
+                        "value": "12",
+                        "children": []
+                    },
+                    {
+                        "label": "Veterinäramt · Tierseuchenbekämpfung · Viehversicherung",
+                        "value": "740",
+                        "children": []
+                    },
+                    {
+                        "label": "Veterinäramt · Tierseuchenbekämpfung · Viehversicherung",
+                        "value": "741",
+                        "children": []
+                    },
+                    {
+                        "label": "Viehhandel",
+                        "value": "742",
+                        "children": []
+                    },
+                    {
+                        "label": "Tierhaltung und Tierschutz",
+                        "value": "13",
+                        "children": []
+                    },
+                    {
+                        "label": "Tierhaltung und Tierschutz",
+                        "value": "14",
+                        "children": []
+                    },
+                    {
+                        "label": "Tierhaltung und Tierschutz",
+                        "value": "15",
+                        "children": []
+                    },
+                    {
+                        "label": "Tierhaltung und Tierschutz",
+                        "value": "537",
+                        "children": []
+                    },
+                    {
+                        "label": "Tierhaltung und Tierschutz",
+                        "value": "743",
+                        "children": []
+                    },
+                    {
+                        "label": "Tierhaltung und Tierschutz",
+                        "value": "744",
+                        "children": []
+                    },
+                    {
+                        "label": "Tierhaltung und Tierschutz",
+                        "value": "745",
+                        "children": []
+                    },
+                    {
+                        "label": "Tierkörperverwertung",
+                        "value": "16",
+                        "children": []
+                    },
+                    {
+                        "label": "Tierkörperverwertung",
+                        "value": "538",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Wohnhygiene · Baden · Kunsteisbahnen · Sport",
+                "value": "198",
+                "children": [
+                    {
+                        "label": "Wohnhygiene · Baden · Kunsteisbahnen",
+                        "value": "746",
+                        "children": []
+                    },
+                    {
+                        "label": "Sport",
+                        "value": "539",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Bestattungen",
+                "value": "374",
+                "children": []
+            },
+            {
+                "label": "Bestattungen",
+                "value": "375",
+                "children": []
+            },
+            {
+                "label": "Bestattungen",
+                "value": "376",
+                "children": []
+            },
+            {
+                "label": "Bestattungen",
+                "value": "377",
+                "children": []
+            },
+            {
+                "label": "Bestattungen",
+                "value": "378",
+                "children": []
+            },
+            {
+                "label": "Bestattungen",
+                "value": "906",
+                "children": []
+            },
+            {
+                "label": "Bestattungen",
+                "value": "200",
+                "children": []
+            },
+            {
+                "label": "Bestattungen",
+                "value": "199",
+                "children": []
+            },
+            {
+                "label": "Bestattungen",
+                "value": "905",
+                "children": []
+            },
+            {
+                "label": "Bestattungen",
+                "value": "373",
+                "children": []
+            },
+            {
+                "label": "Bestattungen",
+                "value": "907",
+                "children": []
+            }
+        ]
+    },
+    {
+        "label": "Erziehung Wissenschafts- und Kulturpflege",
+        "value": "172",
+        "children": [
+            {
+                "label": "Schulen",
+                "value": "908",
+                "children": [
+                    {
+                        "label": "Schulen",
+                        "value": "17",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulen",
+                        "value": "542",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulen",
+                        "value": "543",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulen",
+                        "value": "544",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulen",
+                        "value": "545",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulen",
+                        "value": "541",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulen",
+                        "value": "747",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulen",
+                        "value": "540",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulen",
+                        "value": "749",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulen",
+                        "value": "750",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulen",
+                        "value": "751",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulen",
+                        "value": "748",
+                        "children": []
+                    },
+                    {
+                        "label": "Behörden · Personal",
+                        "value": "548",
+                        "children": []
+                    },
+                    {
+                        "label": "Behörden · Personal",
+                        "value": "547",
+                        "children": []
+                    },
+                    {
+                        "label": "Behörden · Personal",
+                        "value": "546",
+                        "children": []
+                    },
+                    {
+                        "label": "Behörden · Personal",
+                        "value": "752",
+                        "children": []
+                    },
+                    {
+                        "label": "Behörden · Personal",
+                        "value": "753",
+                        "children": []
+                    },
+                    {
+                        "label": "Behörden · Personal",
+                        "value": "754",
+                        "children": []
+                    },
+                    {
+                        "label": "Behörden · Personal",
+                        "value": "549",
+                        "children": []
+                    },
+                    {
+                        "label": "Behörden · Personal",
+                        "value": "550",
+                        "children": []
+                    },
+                    {
+                        "label": "Behörden · Personal",
+                        "value": "18",
+                        "children": []
+                    },
+                    {
+                        "label": "Behörden · Personal",
+                        "value": "19",
+                        "children": []
+                    },
+                    {
+                        "label": "Behörden · Personal",
+                        "value": "20",
+                        "children": []
+                    },
+                    {
+                        "label": "Behörden · Personal",
+                        "value": "21",
+                        "children": []
+                    },
+                    {
+                        "label": "Kindergärten · Primarschulen · Förderangebote",
+                        "value": "22",
+                        "children": []
+                    },
+                    {
+                        "label": "Kindergärten · Primarschulen · Förderangebote",
+                        "value": "23",
+                        "children": []
+                    },
+                    {
+                        "label": "Kindergärten · Primarschulen · Förderangebote",
+                        "value": "755",
+                        "children": []
+                    },
+                    {
+                        "label": "Kindergärten · Primarschulen · Förderangebote",
+                        "value": "551",
+                        "children": []
+                    },
+                    {
+                        "label": "Mittelschulen",
+                        "value": "25",
+                        "children": []
+                    },
+                    {
+                        "label": "Mittelschulen",
+                        "value": "24",
+                        "children": []
+                    },
+                    {
+                        "label": "Mittelschulen",
+                        "value": "552",
+                        "children": []
+                    },
+                    {
+                        "label": "Lehrmittel · Schulmaterial · Schulbibliotheken",
+                        "value": "757",
+                        "children": []
+                    },
+                    {
+                        "label": "Lehrmittel · Schulmaterial · Schulbibliotheken",
+                        "value": "553",
+                        "children": []
+                    },
+                    {
+                        "label": "Lehrmittel · Schulmaterial · Schulbibliotheken",
+                        "value": "756",
+                        "children": []
+                    },
+                    {
+                        "label": "Lehrmittel · Schulmaterial · Schulbibliotheken",
+                        "value": "26",
+                        "children": []
+                    },
+                    {
+                        "label": "Lehrmittel · Schulmaterial · Schulbibliotheken",
+                        "value": "27",
+                        "children": []
+                    },
+                    {
+                        "label": "Jugendhilfe · Schulfürsorge",
+                        "value": "758",
+                        "children": []
+                    },
+                    {
+                        "label": "Jugendhilfe · Schulfürsorge",
+                        "value": "28",
+                        "children": []
+                    },
+                    {
+                        "label": "Jugendhilfe · Schulfürsorge",
+                        "value": "29",
+                        "children": []
+                    },
+                    {
+                        "label": "Jugendhilfe · Schulfürsorge",
+                        "value": "30",
+                        "children": []
+                    },
+                    {
+                        "label": "Jugendhilfe · Schulfürsorge",
+                        "value": "554",
+                        "children": []
+                    },
+                    {
+                        "label": "Turnen und Sport",
+                        "value": "31",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "762",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "761",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "760",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "759",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "764",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "765",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "766",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "763",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "35",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "559",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "558",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "557",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "556",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "555",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "767",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "32",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "33",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "34",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "36",
+                        "children": []
+                    },
+                    {
+                        "label": "Schulgeld · Schulabkommen · Anerkennungsabkommen",
+                        "value": "768",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Berufsbildung · Berufsschulen · Fachhochschule",
+                "value": "383",
+                "children": [
+                    {
+                        "label": "Berufsbildung",
+                        "value": "37",
+                        "children": []
+                    },
+                    {
+                        "label": "Berufsbildung",
+                        "value": "769",
+                        "children": []
+                    },
+                    {
+                        "label": "Allgemeine Gewerbeschule und angegliederte Schulen",
+                        "value": "770",
+                        "children": []
+                    },
+                    {
+                        "label": "Allgemeine Gewerbeschule und angegliederte Schulen",
+                        "value": "560",
+                        "children": []
+                    },
+                    {
+                        "label": "Allgemeine Gewerbeschule und angegliederte Schulen",
+                        "value": "561",
+                        "children": []
+                    },
+                    {
+                        "label": "Allgemeine Gewerbeschule und angegliederte Schulen",
+                        "value": "38",
+                        "children": []
+                    },
+                    {
+                        "label": "Allgemeine Gewerbeschule und angegliederte Schulen",
+                        "value": "39",
+                        "children": []
+                    },
+                    {
+                        "label": "Landwirtschaftliches Technikum",
+                        "value": "562",
+                        "children": []
+                    },
+                    {
+                        "label": "Berufsfachschule",
+                        "value": "772",
+                        "children": []
+                    },
+                    {
+                        "label": "Berufsfachschule",
+                        "value": "771",
+                        "children": []
+                    },
+                    {
+                        "label": "Berufsmaturitäten",
+                        "value": "40",
+                        "children": []
+                    },
+                    {
+                        "label": "Berufsmaturitäten",
+                        "value": "563",
+                        "children": []
+                    },
+                    {
+                        "label": "Berufsmaturitäten",
+                        "value": "41",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausbildung in einzelnen Berufen",
+                        "value": "42",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausbildung in einzelnen Berufen",
+                        "value": "774",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausbildung in einzelnen Berufen",
+                        "value": "773",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausbildung in einzelnen Berufen",
+                        "value": "564",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausbildung in einzelnen Berufen",
+                        "value": "45",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausbildung in einzelnen Berufen",
+                        "value": "44",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausbildung in einzelnen Berufen",
+                        "value": "43",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausbildung in einzelnen Berufen",
+                        "value": "565",
+                        "children": []
+                    },
+                    {
+                        "label": "Fachhochschulen",
+                        "value": "775",
+                        "children": []
+                    },
+                    {
+                        "label": "Fachhochschulen",
+                        "value": "46",
+                        "children": []
+                    },
+                    {
+                        "label": "Fachhochschulen",
+                        "value": "776",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Lehrerbildung",
+                "value": "384",
+                "children": [
+                    {
+                        "label": "Lehrerbildung",
+                        "value": "47",
+                        "children": []
+                    },
+                    {
+                        "label": "Lehrerprüfungen",
+                        "value": "48",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Universität und Universitätsgut · Wissenschaftliche Institute",
+                "value": "911",
+                "children": [
+                    {
+                        "label": "Universität und Universitätsgut",
+                        "value": "566",
+                        "children": []
+                    },
+                    {
+                        "label": "Universität und Universitätsgut",
+                        "value": "777",
+                        "children": []
+                    },
+                    {
+                        "label": "Universität und Universitätsgut",
+                        "value": "778",
+                        "children": []
+                    },
+                    {
+                        "label": "Organisation · Behörden · Personal",
+                        "value": "779",
+                        "children": []
+                    },
+                    {
+                        "label": "Hochschulförderung · Finanzmittel · Gebühren",
+                        "value": "49",
+                        "children": []
+                    },
+                    {
+                        "label": "Hochschulförderung · Finanzmittel · Gebühren",
+                        "value": "567",
+                        "children": []
+                    },
+                    {
+                        "label": "Hochschulförderung · Finanzmittel · Gebühren",
+                        "value": "780",
+                        "children": []
+                    },
+                    {
+                        "label": "Hochschulförderung · Finanzmittel · Gebühren",
+                        "value": "781",
+                        "children": []
+                    },
+                    {
+                        "label": "Akademische Berufsberatung",
+                        "value": "50",
+                        "children": []
+                    },
+                    {
+                        "label": "Fakultäten",
+                        "value": "782",
+                        "children": []
+                    },
+                    {
+                        "label": "Wissenschaftliche Institute und spezielle Forschungsbereiche",
+                        "value": "783",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Museen · Archive · Bibliotheken · Dokumentation",
+                "value": "912",
+                "children": [
+                    {
+                        "label": "Museen und Sammlungen",
+                        "value": "51",
+                        "children": []
+                    },
+                    {
+                        "label": "Museen und Sammlungen",
+                        "value": "568",
+                        "children": []
+                    },
+                    {
+                        "label": "Museen und Sammlungen",
+                        "value": "569",
+                        "children": []
+                    },
+                    {
+                        "label": "Museen und Sammlungen",
+                        "value": "784",
+                        "children": []
+                    },
+                    {
+                        "label": "Archive und Bibliotheken",
+                        "value": "52",
+                        "children": []
+                    },
+                    {
+                        "label": "Dokumentation und Register",
+                        "value": "53",
+                        "children": []
+                    },
+                    {
+                        "label": "Dokumentation und Register",
+                        "value": "54",
+                        "children": []
+                    },
+                    {
+                        "label": "Dokumentation und Register",
+                        "value": "570",
+                        "children": []
+                    },
+                    {
+                        "label": "Dokumentation und Register",
+                        "value": "785",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Erwachsenenbildung",
+                "value": "386",
+                "children": []
+            },
+            {
+                "label": "Erwachsenenbildung",
+                "value": "914",
+                "children": []
+            },
+            {
+                "label": "Erwachsenenbildung",
+                "value": "915",
+                "children": []
+            },
+            {
+                "label": "Ausbildungsbeiträge · Wissenschafts- und Kulturpflege",
+                "value": "387",
+                "children": [
+                    {
+                        "label": "Ausbildungsbeiträge",
+                        "value": "55",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausbildungsbeiträge",
+                        "value": "56",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausbildungsbeiträge",
+                        "value": "571",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausbildungsbeiträge",
+                        "value": "572",
+                        "children": []
+                    },
+                    {
+                        "label": "Förderung von Wissenschaft, Kunst und Kultur",
+                        "value": "790",
+                        "children": []
+                    },
+                    {
+                        "label": "Förderung von Wissenschaft, Kunst und Kultur",
+                        "value": "789",
+                        "children": []
+                    },
+                    {
+                        "label": "Förderung von Wissenschaft, Kunst und Kultur",
+                        "value": "788",
+                        "children": []
+                    },
+                    {
+                        "label": "Förderung von Wissenschaft, Kunst und Kultur",
+                        "value": "787",
+                        "children": []
+                    },
+                    {
+                        "label": "Förderung von Wissenschaft, Kunst und Kultur",
+                        "value": "786",
+                        "children": []
+                    },
+                    {
+                        "label": "Förderung von Wissenschaft, Kunst und Kultur",
+                        "value": "573",
+                        "children": []
+                    },
+                    {
+                        "label": "Förderung von Wissenschaft, Kunst und Kultur",
+                        "value": "60",
+                        "children": []
+                    },
+                    {
+                        "label": "Förderung von Wissenschaft, Kunst und Kultur",
+                        "value": "59",
+                        "children": []
+                    },
+                    {
+                        "label": "Förderung von Wissenschaft, Kunst und Kultur",
+                        "value": "58",
+                        "children": []
+                    },
+                    {
+                        "label": "Förderung von Wissenschaft, Kunst und Kultur",
+                        "value": "57",
+                        "children": []
+                    },
+                    {
+                        "label": "Denkmalschutz · Archäologische Forschung",
+                        "value": "574",
+                        "children": []
+                    },
+                    {
+                        "label": "Denkmalschutz · Archäologische Forschung",
+                        "value": "575",
+                        "children": []
+                    },
+                    {
+                        "label": "Denkmalschutz · Archäologische Forschung",
+                        "value": "576",
+                        "children": []
+                    },
+                    {
+                        "label": "Denkmalschutz · Archäologische Forschung",
+                        "value": "61",
+                        "children": []
+                    },
+                    {
+                        "label": "Denkmalschutz · Archäologische Forschung",
+                        "value": "791",
+                        "children": []
+                    },
+                    {
+                        "label": "Denkmalschutz · Archäologische Forschung",
+                        "value": "792",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Polizei · Militär · Feuerwehr",
+        "value": "709",
+        "children": [
+            {
+                "label": "Polizei",
+                "value": "389",
+                "children": [
+                    {
+                        "label": "Polizei",
+                        "value": "62",
+                        "children": []
+                    },
+                    {
+                        "label": "Polizei",
+                        "value": "577",
+                        "children": []
+                    },
+                    {
+                        "label": "Polizei",
+                        "value": "578",
+                        "children": []
+                    },
+                    {
+                        "label": "Polizei",
+                        "value": "579",
+                        "children": []
+                    },
+                    {
+                        "label": "Polizei",
+                        "value": "580",
+                        "children": []
+                    },
+                    {
+                        "label": "Polizei",
+                        "value": "793",
+                        "children": []
+                    },
+                    {
+                        "label": "Polizei",
+                        "value": "794",
+                        "children": []
+                    },
+                    {
+                        "label": "Polizei",
+                        "value": "795",
+                        "children": []
+                    },
+                    {
+                        "label": "Gebühren",
+                        "value": "63",
+                        "children": []
+                    },
+                    {
+                        "label": "Gebühren",
+                        "value": "796",
+                        "children": []
+                    },
+                    {
+                        "label": "Gebühren",
+                        "value": "797",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Gewerbepolizei · Waffen und Munition",
+                "value": "390",
+                "children": [
+                    {
+                        "label": "Geldspiele · Lotterien",
+                        "value": "64",
+                        "children": []
+                    },
+                    {
+                        "label": "Geldspiele · Lotterien",
+                        "value": "65",
+                        "children": []
+                    },
+                    {
+                        "label": "Geldspiele · Lotterien",
+                        "value": "66",
+                        "children": []
+                    },
+                    {
+                        "label": "Geldspiele · Lotterien",
+                        "value": "798",
+                        "children": []
+                    },
+                    {
+                        "label": "Geldspiele · Lotterien",
+                        "value": "582",
+                        "children": []
+                    },
+                    {
+                        "label": "Geldspiele · Lotterien",
+                        "value": "581",
+                        "children": []
+                    },
+                    {
+                        "label": "Handel · Märkte · Schaustellungen",
+                        "value": "583",
+                        "children": []
+                    },
+                    {
+                        "label": "Handel · Märkte · Schaustellungen",
+                        "value": "584",
+                        "children": []
+                    },
+                    {
+                        "label": "Handel · Märkte · Schaustellungen",
+                        "value": "70",
+                        "children": []
+                    },
+                    {
+                        "label": "Handel · Märkte · Schaustellungen",
+                        "value": "69",
+                        "children": []
+                    },
+                    {
+                        "label": "Handel · Märkte · Schaustellungen",
+                        "value": "68",
+                        "children": []
+                    },
+                    {
+                        "label": "Handel · Märkte · Schaustellungen",
+                        "value": "67",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstleistungsgewerbe",
+                        "value": "72",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstleistungsgewerbe",
+                        "value": "800",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstleistungsgewerbe",
+                        "value": "799",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstleistungsgewerbe",
+                        "value": "590",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstleistungsgewerbe",
+                        "value": "589",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstleistungsgewerbe",
+                        "value": "588",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstleistungsgewerbe",
+                        "value": "587",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstleistungsgewerbe",
+                        "value": "586",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstleistungsgewerbe",
+                        "value": "585",
+                        "children": []
+                    },
+                    {
+                        "label": "Dienstleistungsgewerbe",
+                        "value": "71",
+                        "children": []
+                    },
+                    {
+                        "label": "Waffen und Munition · Sprengstoffe",
+                        "value": "591",
+                        "children": []
+                    },
+                    {
+                        "label": "Waffen und Munition · Sprengstoffe",
+                        "value": "592",
+                        "children": []
+                    },
+                    {
+                        "label": "Sonstige Gewerbe",
+                        "value": "593",
+                        "children": []
+                    },
+                    {
+                        "label": "Sonstige Gewerbe",
+                        "value": "801",
+                        "children": []
+                    },
+                    {
+                        "label": "Sonstige Gewerbe",
+                        "value": "73",
+                        "children": []
+                    },
+                    {
+                        "label": "Sonstige Gewerbe",
+                        "value": "802",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Militär und Zivilschutz",
+                "value": "391",
+                "children": [
+                    {
+                        "label": "Militärverwaltung",
+                        "value": "74",
+                        "children": []
+                    },
+                    {
+                        "label": "Wehrpflichtersatz",
+                        "value": "594",
+                        "children": []
+                    },
+                    {
+                        "label": "Zivilschutz · Katastrophenhilfe",
+                        "value": "595",
+                        "children": []
+                    },
+                    {
+                        "label": "Zivilschutz · Katastrophenhilfe",
+                        "value": "596",
+                        "children": []
+                    },
+                    {
+                        "label": "Zivilschutz · Katastrophenhilfe",
+                        "value": "597",
+                        "children": []
+                    },
+                    {
+                        "label": "Zivilschutz · Katastrophenhilfe",
+                        "value": "598",
+                        "children": []
+                    },
+                    {
+                        "label": "Zivilschutz · Katastrophenhilfe",
+                        "value": "803",
+                        "children": []
+                    },
+                    {
+                        "label": "Zivilschutz · Katastrophenhilfe",
+                        "value": "804",
+                        "children": []
+                    },
+                    {
+                        "label": "Zivilschutz · Katastrophenhilfe",
+                        "value": "805",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Feuerwehr",
+                "value": "204",
+                "children": []
+            },
+            {
+                "label": "Feuerwehr",
+                "value": "392",
+                "children": []
+            },
+            {
+                "label": "Feuerwehr",
+                "value": "917",
+                "children": []
+            }
+        ]
+    },
+    {
+        "label": "Finanzen · Staatliche Liegenschaften und Materiallagerplätze · Monopole",
+        "value": "343",
+        "children": [
+            {
+                "label": "Finanzordnung",
+                "value": "205",
+                "children": []
+            },
+            {
+                "label": "Finanzordnung",
+                "value": "206",
+                "children": []
+            },
+            {
+                "label": "Finanzordnung",
+                "value": "393",
+                "children": []
+            },
+            {
+                "label": "Finanzordnung",
+                "value": "918",
+                "children": []
+            },
+            {
+                "label": "Finanzordnung",
+                "value": "919",
+                "children": []
+            },
+            {
+                "label": "Allgemeine Steuern",
+                "value": "394",
+                "children": [
+                    {
+                        "label": "Direkte Steuern",
+                        "value": "599",
+                        "children": []
+                    },
+                    {
+                        "label": "Direkte Steuern",
+                        "value": "806",
+                        "children": []
+                    },
+                    {
+                        "label": "Steuerabkommen",
+                        "value": "600",
+                        "children": []
+                    },
+                    {
+                        "label": "Steuerabkommen",
+                        "value": "601",
+                        "children": []
+                    },
+                    {
+                        "label": "Steuerabkommen",
+                        "value": "602",
+                        "children": []
+                    },
+                    {
+                        "label": "Steuerabkommen",
+                        "value": "807",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Spezielle Steuern und Abgaben",
+                "value": "208",
+                "children": []
+            },
+            {
+                "label": "Spezielle Steuern und Abgaben",
+                "value": "209",
+                "children": []
+            },
+            {
+                "label": "Spezielle Steuern und Abgaben",
+                "value": "210",
+                "children": []
+            },
+            {
+                "label": "Spezielle Steuern und Abgaben",
+                "value": "211",
+                "children": []
+            },
+            {
+                "label": "Spezielle Steuern und Abgaben",
+                "value": "397",
+                "children": []
+            },
+            {
+                "label": "Bundessteuern",
+                "value": "212",
+                "children": []
+            },
+            {
+                "label": "Bundessteuern",
+                "value": "920",
+                "children": []
+            },
+            {
+                "label": "Finanzausgleich Bund - Kantone",
+                "value": "398",
+                "children": []
+            },
+            {
+                "label": "Staatliche Liegenschaften · Materiallagerplätze · Industriegeleise",
+                "value": "213",
+                "children": [
+                    {
+                        "label": "Staatliche Liegenschaften",
+                        "value": "603",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Materiallagerplätze (Dreispitz) · Industriegeleise St. Johann",
+                        "value": "75",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Materiallagerplätze (Dreispitz) · Industriegeleise St. Johann",
+                        "value": "76",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Materiallagerplätze (Dreispitz) · Industriegeleise St. Johann",
+                        "value": "604",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Materiallagerplätze (Dreispitz) · Industriegeleise St. Johann",
+                        "value": "808",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Materiallagerplätze (Dreispitz) · Industriegeleise St. Johann",
+                        "value": "809",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Monopole",
+                "value": "399",
+                "children": [
+                    {
+                        "label": "Salzregal",
+                        "value": "810",
+                        "children": []
+                    },
+                    {
+                        "label": "Gebäudeversicherung",
+                        "value": "77",
+                        "children": []
+                    },
+                    {
+                        "label": "Gebäudeversicherung",
+                        "value": "78",
+                        "children": []
+                    },
+                    {
+                        "label": "Gebäudeversicherung",
+                        "value": "605",
+                        "children": []
+                    },
+                    {
+                        "label": "Gebäudeversicherung",
+                        "value": "606",
+                        "children": []
+                    },
+                    {
+                        "label": "Gebäudeversicherung",
+                        "value": "811",
+                        "children": []
+                    },
+                    {
+                        "label": "Gebäudeversicherung",
+                        "value": "812",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Raum- und Bauordnung · Energie · Umweltschutz",
+        "value": "713",
+        "children": [
+            {
+                "label": "Grundstückbewertung",
+                "value": "216",
+                "children": [
+                    {
+                        "label": "Grundstückbewertung",
+                        "value": "79",
+                        "children": []
+                    },
+                    {
+                        "label": "Grundstückbewertung",
+                        "value": "813",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Strassen: Bau, Benützung, Unterhalt",
+                "value": "400",
+                "children": [
+                    {
+                        "label": "Strassenbau",
+                        "value": "80",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenbau",
+                        "value": "607",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenbau",
+                        "value": "608",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentlicher Raum",
+                        "value": "81",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentlicher Raum",
+                        "value": "82",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentlicher Raum",
+                        "value": "609",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentlicher Raum",
+                        "value": "610",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentlicher Raum",
+                        "value": "611",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentlicher Raum",
+                        "value": "814",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentlicher Raum",
+                        "value": "815",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenreinigung und Kehrichtabfuhr",
+                        "value": "83",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenreinigung und Kehrichtabfuhr",
+                        "value": "816",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Hochbauten",
+                "value": "219",
+                "children": [
+                    {
+                        "label": "Hochbauten",
+                        "value": "84",
+                        "children": []
+                    },
+                    {
+                        "label": "Hochbauten",
+                        "value": "85",
+                        "children": []
+                    },
+                    {
+                        "label": "Hochbauten",
+                        "value": "86",
+                        "children": []
+                    },
+                    {
+                        "label": "Hochbauten",
+                        "value": "87",
+                        "children": []
+                    },
+                    {
+                        "label": "Hochbauten",
+                        "value": "88",
+                        "children": []
+                    },
+                    {
+                        "label": "Hochbauten",
+                        "value": "612",
+                        "children": []
+                    },
+                    {
+                        "label": "Hochbauten",
+                        "value": "613",
+                        "children": []
+                    },
+                    {
+                        "label": "Hochbauten",
+                        "value": "817",
+                        "children": []
+                    },
+                    {
+                        "label": "Hochbauten",
+                        "value": "818",
+                        "children": []
+                    },
+                    {
+                        "label": "Sicherheit und Brandschutz für Bauten",
+                        "value": "89",
+                        "children": []
+                    },
+                    {
+                        "label": "Sicherheit und Brandschutz für Bauten",
+                        "value": "614",
+                        "children": []
+                    },
+                    {
+                        "label": "Sicherheit und Brandschutz für Bauten",
+                        "value": "819",
+                        "children": []
+                    },
+                    {
+                        "label": "Hausnummern",
+                        "value": "820",
+                        "children": []
+                    },
+                    {
+                        "label": "Bauinspektorat",
+                        "value": "615",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Enteignung",
+                "value": "403",
+                "children": []
+            },
+            {
+                "label": "Enteignung",
+                "value": "404",
+                "children": []
+            },
+            {
+                "label": "Enteignung",
+                "value": "926",
+                "children": []
+            },
+            {
+                "label": "Enteignung",
+                "value": "927",
+                "children": []
+            },
+            {
+                "label": "Wasser · Energie",
+                "value": "406",
+                "children": [
+                    {
+                        "label": "Wasserläufe und Wasserkräfte",
+                        "value": "90",
+                        "children": []
+                    },
+                    {
+                        "label": "Wasserläufe und Wasserkräfte",
+                        "value": "91",
+                        "children": []
+                    },
+                    {
+                        "label": "Wasserläufe und Wasserkräfte",
+                        "value": "92",
+                        "children": []
+                    },
+                    {
+                        "label": "Wasserläufe und Wasserkräfte",
+                        "value": "93",
+                        "children": []
+                    },
+                    {
+                        "label": "Wasserläufe und Wasserkräfte",
+                        "value": "94",
+                        "children": []
+                    },
+                    {
+                        "label": "Wasserläufe und Wasserkräfte",
+                        "value": "821",
+                        "children": []
+                    },
+                    {
+                        "label": "Wasserläufe und Wasserkräfte",
+                        "value": "618",
+                        "children": []
+                    },
+                    {
+                        "label": "Wasserläufe und Wasserkräfte",
+                        "value": "617",
+                        "children": []
+                    },
+                    {
+                        "label": "Wasserläufe und Wasserkräfte",
+                        "value": "823",
+                        "children": []
+                    },
+                    {
+                        "label": "Wasserläufe und Wasserkräfte",
+                        "value": "822",
+                        "children": []
+                    },
+                    {
+                        "label": "Wasserläufe und Wasserkräfte",
+                        "value": "616",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "626",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "824",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "825",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "826",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "827",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "625",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "624",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "620",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "622",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "621",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "828",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "619",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "100",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "99",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "98",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "97",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "96",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "95",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "623",
+                        "children": []
+                    },
+                    {
+                        "label": "Energie- und Wasserversorgung",
+                        "value": "829",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Umweltschutz",
+                "value": "225",
+                "children": [
+                    {
+                        "label": "Umweltschutz",
+                        "value": "101",
+                        "children": []
+                    },
+                    {
+                        "label": "Umweltschutz",
+                        "value": "631",
+                        "children": []
+                    },
+                    {
+                        "label": "Umweltschutz",
+                        "value": "630",
+                        "children": []
+                    },
+                    {
+                        "label": "Umweltschutz",
+                        "value": "629",
+                        "children": []
+                    },
+                    {
+                        "label": "Umweltschutz",
+                        "value": "831",
+                        "children": []
+                    },
+                    {
+                        "label": "Umweltschutz",
+                        "value": "627",
+                        "children": []
+                    },
+                    {
+                        "label": "Umweltschutz",
+                        "value": "628",
+                        "children": []
+                    },
+                    {
+                        "label": "Umweltschutz",
+                        "value": "830",
+                        "children": []
+                    },
+                    {
+                        "label": "Lufthygiene",
+                        "value": "832",
+                        "children": []
+                    },
+                    {
+                        "label": "Lufthygiene",
+                        "value": "833",
+                        "children": []
+                    },
+                    {
+                        "label": "Lufthygiene",
+                        "value": "834",
+                        "children": []
+                    },
+                    {
+                        "label": "Lufthygiene",
+                        "value": "103",
+                        "children": []
+                    },
+                    {
+                        "label": "Lufthygiene",
+                        "value": "104",
+                        "children": []
+                    },
+                    {
+                        "label": "Lufthygiene",
+                        "value": "102",
+                        "children": []
+                    },
+                    {
+                        "label": "Lärmschutz",
+                        "value": "836",
+                        "children": []
+                    },
+                    {
+                        "label": "Lärmschutz",
+                        "value": "835",
+                        "children": []
+                    },
+                    {
+                        "label": "Gewässerschutz",
+                        "value": "105",
+                        "children": []
+                    },
+                    {
+                        "label": "Gewässerschutz",
+                        "value": "837",
+                        "children": []
+                    },
+                    {
+                        "label": "Gewässerschutz",
+                        "value": "838",
+                        "children": []
+                    },
+                    {
+                        "label": "Kanalisation",
+                        "value": "107",
+                        "children": []
+                    },
+                    {
+                        "label": "Kanalisation",
+                        "value": "632",
+                        "children": []
+                    },
+                    {
+                        "label": "Kanalisation",
+                        "value": "839",
+                        "children": []
+                    },
+                    {
+                        "label": "Kanalisation",
+                        "value": "840",
+                        "children": []
+                    },
+                    {
+                        "label": "Kanalisation",
+                        "value": "106",
+                        "children": []
+                    },
+                    {
+                        "label": "Abwasserreinigung",
+                        "value": "633",
+                        "children": []
+                    },
+                    {
+                        "label": "Abwasserreinigung",
+                        "value": "634",
+                        "children": []
+                    },
+                    {
+                        "label": "Abwasserreinigung",
+                        "value": "635",
+                        "children": []
+                    },
+                    {
+                        "label": "Abwasserreinigung",
+                        "value": "841",
+                        "children": []
+                    },
+                    {
+                        "label": "Abfallbeseitigung",
+                        "value": "842",
+                        "children": []
+                    },
+                    {
+                        "label": "Abfallbeseitigung",
+                        "value": "637",
+                        "children": []
+                    },
+                    {
+                        "label": "Abfallbeseitigung",
+                        "value": "642",
+                        "children": []
+                    },
+                    {
+                        "label": "Abfallbeseitigung",
+                        "value": "641",
+                        "children": []
+                    },
+                    {
+                        "label": "Abfallbeseitigung",
+                        "value": "640",
+                        "children": []
+                    },
+                    {
+                        "label": "Abfallbeseitigung",
+                        "value": "639",
+                        "children": []
+                    },
+                    {
+                        "label": "Abfallbeseitigung",
+                        "value": "638",
+                        "children": []
+                    },
+                    {
+                        "label": "Abfallbeseitigung",
+                        "value": "636",
+                        "children": []
+                    },
+                    {
+                        "label": "Abfallbeseitigung",
+                        "value": "108",
+                        "children": []
+                    },
+                    {
+                        "label": "Abfallbeseitigung",
+                        "value": "110",
+                        "children": []
+                    },
+                    {
+                        "label": "Abfallbeseitigung",
+                        "value": "109",
+                        "children": []
+                    },
+                    {
+                        "label": "Bodenschutz",
+                        "value": "111",
+                        "children": []
+                    },
+                    {
+                        "label": "Natur- und Landschaftsschutz",
+                        "value": "844",
+                        "children": []
+                    },
+                    {
+                        "label": "Natur- und Landschaftsschutz",
+                        "value": "843",
+                        "children": []
+                    },
+                    {
+                        "label": "Natur- und Landschaftsschutz",
+                        "value": "112",
+                        "children": []
+                    },
+                    {
+                        "label": "Natur- und Landschaftsschutz",
+                        "value": "113",
+                        "children": []
+                    },
+                    {
+                        "label": "Natur- und Landschaftsschutz",
+                        "value": "845",
+                        "children": []
+                    },
+                    {
+                        "label": "Natur- und Landschaftsschutz",
+                        "value": "643",
+                        "children": []
+                    },
+                    {
+                        "label": "Natur- und Landschaftsschutz",
+                        "value": "846",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Baurekurskommission",
+                "value": "229",
+                "children": []
+            },
+            {
+                "label": "Baurekurskommission",
+                "value": "409",
+                "children": []
+            }
+        ]
+    },
+    {
+        "label": "Arbeit · Soziale Sicherheit",
+        "value": "348",
+        "children": [
+            {
+                "label": "Arbeit",
+                "value": "230",
+                "children": [
+                    {
+                        "label": "Arbeit",
+                        "value": "114",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitszeit · Ruhetage · Ladenschlusszeiten",
+                        "value": "115",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitszeit · Ruhetage · Ladenschlusszeiten",
+                        "value": "847",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitnehmerschutz",
+                        "value": "850",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitnehmerschutz",
+                        "value": "849",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitnehmerschutz",
+                        "value": "848",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitnehmerschutz",
+                        "value": "648",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitnehmerschutz",
+                        "value": "647",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitnehmerschutz",
+                        "value": "646",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitnehmerschutz",
+                        "value": "644",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitnehmerschutz",
+                        "value": "645",
+                        "children": []
+                    },
+                    {
+                        "label": "Kollektivstreitigkeiten",
+                        "value": "851",
+                        "children": []
+                    },
+                    {
+                        "label": "Kollektivstreitigkeiten",
+                        "value": "116",
+                        "children": []
+                    },
+                    {
+                        "label": "Kollektivstreitigkeiten",
+                        "value": "117",
+                        "children": []
+                    },
+                    {
+                        "label": "Kinderbetreuung",
+                        "value": "118",
+                        "children": []
+                    },
+                    {
+                        "label": "Kinderbetreuung",
+                        "value": "120",
+                        "children": []
+                    },
+                    {
+                        "label": "Kinderbetreuung",
+                        "value": "649",
+                        "children": []
+                    },
+                    {
+                        "label": "Kinderbetreuung",
+                        "value": "119",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitsmarkt und Arbeitsbeschaffung",
+                        "value": "125",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitsmarkt und Arbeitsbeschaffung",
+                        "value": "852",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitsmarkt und Arbeitsbeschaffung",
+                        "value": "650",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitsmarkt und Arbeitsbeschaffung",
+                        "value": "124",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitsmarkt und Arbeitsbeschaffung",
+                        "value": "121",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitsmarkt und Arbeitsbeschaffung",
+                        "value": "122",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitsmarkt und Arbeitsbeschaffung",
+                        "value": "853",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitsmarkt und Arbeitsbeschaffung",
+                        "value": "123",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitsmarkt und Arbeitsbeschaffung",
+                        "value": "126",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitsmarkt und Arbeitsbeschaffung",
+                        "value": "651",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitsmarkt und Arbeitsbeschaffung",
+                        "value": "854",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Familienzulagen für Arbeitnehmende",
+                "value": "410",
+                "children": []
+            },
+            {
+                "label": "Familienzulagen für Arbeitnehmende",
+                "value": "411",
+                "children": []
+            },
+            {
+                "label": "Sozialversicherung",
+                "value": "231",
+                "children": [
+                    {
+                        "label": "Ausgleichskassen",
+                        "value": "127",
+                        "children": []
+                    },
+                    {
+                        "label": "Ausgleichskassen",
+                        "value": "855",
+                        "children": []
+                    },
+                    {
+                        "label": "Alters- und Hinterlassenenversicherung · Invalidenversicherung · Ergänzende kantonale Alters- und Invalidenhilfe",
+                        "value": "128",
+                        "children": []
+                    },
+                    {
+                        "label": "Alters- und Hinterlassenenversicherung · Invalidenversicherung · Ergänzende kantonale Alters- und Invalidenhilfe",
+                        "value": "129",
+                        "children": []
+                    },
+                    {
+                        "label": "Alters- und Hinterlassenenversicherung · Invalidenversicherung · Ergänzende kantonale Alters- und Invalidenhilfe",
+                        "value": "130",
+                        "children": []
+                    },
+                    {
+                        "label": "Alters- und Hinterlassenenversicherung · Invalidenversicherung · Ergänzende kantonale Alters- und Invalidenhilfe",
+                        "value": "858",
+                        "children": []
+                    },
+                    {
+                        "label": "Alters- und Hinterlassenenversicherung · Invalidenversicherung · Ergänzende kantonale Alters- und Invalidenhilfe",
+                        "value": "857",
+                        "children": []
+                    },
+                    {
+                        "label": "Alters- und Hinterlassenenversicherung · Invalidenversicherung · Ergänzende kantonale Alters- und Invalidenhilfe",
+                        "value": "856",
+                        "children": []
+                    },
+                    {
+                        "label": "Alters- und Hinterlassenenversicherung · Invalidenversicherung · Ergänzende kantonale Alters- und Invalidenhilfe",
+                        "value": "652",
+                        "children": []
+                    },
+                    {
+                        "label": "Berufliche Alters-, Hinterlassenen- und Invalidenvorsorge",
+                        "value": "653",
+                        "children": []
+                    },
+                    {
+                        "label": "Berufliche Alters-, Hinterlassenen- und Invalidenvorsorge",
+                        "value": "654",
+                        "children": []
+                    },
+                    {
+                        "label": "Kranken- und Unfallversicherung · Kantonale Beiträge im Gesundheitswesen",
+                        "value": "860",
+                        "children": []
+                    },
+                    {
+                        "label": "Kranken- und Unfallversicherung · Kantonale Beiträge im Gesundheitswesen",
+                        "value": "655",
+                        "children": []
+                    },
+                    {
+                        "label": "Kranken- und Unfallversicherung · Kantonale Beiträge im Gesundheitswesen",
+                        "value": "131",
+                        "children": []
+                    },
+                    {
+                        "label": "Kranken- und Unfallversicherung · Kantonale Beiträge im Gesundheitswesen",
+                        "value": "656",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitslosenversicherung und ergänzende kantonale Massnahmen",
+                        "value": "657",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitslosenversicherung und ergänzende kantonale Massnahmen",
+                        "value": "658",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitslosenversicherung und ergänzende kantonale Massnahmen",
+                        "value": "861",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitslosenversicherung und ergänzende kantonale Massnahmen",
+                        "value": "134",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitslosenversicherung und ergänzende kantonale Massnahmen",
+                        "value": "133",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitslosenversicherung und ergänzende kantonale Massnahmen",
+                        "value": "132",
+                        "children": []
+                    },
+                    {
+                        "label": "Arbeitslosenversicherung und ergänzende kantonale Massnahmen",
+                        "value": "862",
+                        "children": []
+                    },
+                    {
+                        "label": "Sozialversicherungsprozess",
+                        "value": "659",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Soziale Wohnungsvorsorge · Heime · Behindertenhilfe",
+                "value": "234",
+                "children": [
+                    {
+                        "label": "Sozialer Wohnungsbau · Erhaltung von Wohnraum",
+                        "value": "135",
+                        "children": []
+                    },
+                    {
+                        "label": "Sozialer Wohnungsbau · Erhaltung von Wohnraum",
+                        "value": "863",
+                        "children": []
+                    },
+                    {
+                        "label": "Sozialer Wohnungsbau · Erhaltung von Wohnraum",
+                        "value": "864",
+                        "children": []
+                    },
+                    {
+                        "label": "Sozialer Wohnungsbau · Erhaltung von Wohnraum",
+                        "value": "865",
+                        "children": []
+                    },
+                    {
+                        "label": "Sozialer Wohnungsbau · Erhaltung von Wohnraum",
+                        "value": "866",
+                        "children": []
+                    },
+                    {
+                        "label": "Heime · Alterswohnungen · Behindertenhilfe",
+                        "value": "136",
+                        "children": []
+                    },
+                    {
+                        "label": "Heime · Alterswohnungen · Behindertenhilfe",
+                        "value": "137",
+                        "children": []
+                    },
+                    {
+                        "label": "Heime · Alterswohnungen · Behindertenhilfe",
+                        "value": "138",
+                        "children": []
+                    },
+                    {
+                        "label": "Heime · Alterswohnungen · Behindertenhilfe",
+                        "value": "660",
+                        "children": []
+                    },
+                    {
+                        "label": "Heime · Alterswohnungen · Behindertenhilfe",
+                        "value": "661",
+                        "children": []
+                    },
+                    {
+                        "label": "Heime · Alterswohnungen · Behindertenhilfe",
+                        "value": "662",
+                        "children": []
+                    },
+                    {
+                        "label": "Heime · Alterswohnungen · Behindertenhilfe",
+                        "value": "867",
+                        "children": []
+                    },
+                    {
+                        "label": "Heime · Alterswohnungen · Behindertenhilfe",
+                        "value": "868",
+                        "children": []
+                    },
+                    {
+                        "label": "Heime · Alterswohnungen · Behindertenhilfe",
+                        "value": "869",
+                        "children": []
+                    },
+                    {
+                        "label": "Heime · Alterswohnungen · Behindertenhilfe",
+                        "value": "870",
+                        "children": []
+                    },
+                    {
+                        "label": "Heime · Alterswohnungen · Behindertenhilfe",
+                        "value": "871",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Sozialhilfe · Sozialbeiträge",
+                "value": "235",
+                "children": []
+            },
+            {
+                "label": "Sozialhilfe · Sozialbeiträge",
+                "value": "236",
+                "children": []
+            },
+            {
+                "label": "Sozialhilfe · Sozialbeiträge",
+                "value": "237",
+                "children": []
+            },
+            {
+                "label": "Sozialhilfe · Sozialbeiträge",
+                "value": "238",
+                "children": []
+            },
+            {
+                "label": "Sozialhilfe · Sozialbeiträge",
+                "value": "414",
+                "children": []
+            },
+            {
+                "label": "Sozialhilfe · Sozialbeiträge",
+                "value": "415",
+                "children": []
+            },
+            {
+                "label": "Sozialhilfe · Sozialbeiträge",
+                "value": "932",
+                "children": []
+            }
+        ]
+    },
+    {
+        "label": "Wirtschaft und Verkehr",
+        "value": "718",
+        "children": [
+            {
+                "label": "Wirtschaft",
+                "value": "240",
+                "children": [
+                    {
+                        "label": "Wirtschaft",
+                        "value": "141",
+                        "children": []
+                    },
+                    {
+                        "label": "Wirtschaft",
+                        "value": "876",
+                        "children": []
+                    },
+                    {
+                        "label": "Wirtschaft",
+                        "value": "671",
+                        "children": []
+                    },
+                    {
+                        "label": "Wirtschaft",
+                        "value": "669",
+                        "children": []
+                    },
+                    {
+                        "label": "Wirtschaft",
+                        "value": "670",
+                        "children": []
+                    },
+                    {
+                        "label": "Wirtschaft",
+                        "value": "142",
+                        "children": []
+                    },
+                    {
+                        "label": "Landwirtschaft · Forstwesen · Freizeitgärten",
+                        "value": "144",
+                        "children": []
+                    },
+                    {
+                        "label": "Landwirtschaft · Forstwesen · Freizeitgärten",
+                        "value": "143",
+                        "children": []
+                    },
+                    {
+                        "label": "Landwirtschaft · Forstwesen · Freizeitgärten",
+                        "value": "672",
+                        "children": []
+                    },
+                    {
+                        "label": "Landwirtschaft · Forstwesen · Freizeitgärten",
+                        "value": "877",
+                        "children": []
+                    },
+                    {
+                        "label": "Landwirtschaft · Forstwesen · Freizeitgärten",
+                        "value": "878",
+                        "children": []
+                    },
+                    {
+                        "label": "Landwirtschaft · Forstwesen · Freizeitgärten",
+                        "value": "145",
+                        "children": []
+                    },
+                    {
+                        "label": "Jagd und Fischerei",
+                        "value": "146",
+                        "children": []
+                    },
+                    {
+                        "label": "Jagd und Fischerei",
+                        "value": "147",
+                        "children": []
+                    },
+                    {
+                        "label": "Jagd und Fischerei",
+                        "value": "879",
+                        "children": []
+                    },
+                    {
+                        "label": "Jagd und Fischerei",
+                        "value": "673",
+                        "children": []
+                    },
+                    {
+                        "label": "Submission",
+                        "value": "148",
+                        "children": []
+                    },
+                    {
+                        "label": "Submission",
+                        "value": "674",
+                        "children": []
+                    },
+                    {
+                        "label": "Submission",
+                        "value": "880",
+                        "children": []
+                    },
+                    {
+                        "label": "Bank und Kredit",
+                        "value": "149",
+                        "children": []
+                    },
+                    {
+                        "label": "Schweizer Mustermesse",
+                        "value": "675",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "label": "Verkehr",
+                "value": "416",
+                "children": [
+                    {
+                        "label": "Öffentlicher Verkehr",
+                        "value": "150",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentlicher Verkehr",
+                        "value": "881",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "152",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "883",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "884",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "885",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "886",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "680",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "679",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "678",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "151",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "882",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "677",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "154",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "153",
+                        "children": []
+                    },
+                    {
+                        "label": "Strassenverkehr",
+                        "value": "676",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Verkehrsbetriebe",
+                        "value": "887",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Verkehrsbetriebe",
+                        "value": "157",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Verkehrsbetriebe",
+                        "value": "681",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Verkehrsbetriebe",
+                        "value": "682",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Verkehrsbetriebe",
+                        "value": "683",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Verkehrsbetriebe",
+                        "value": "684",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Verkehrsbetriebe",
+                        "value": "156",
+                        "children": []
+                    },
+                    {
+                        "label": "Öffentliche Verkehrsbetriebe",
+                        "value": "155",
+                        "children": []
+                    },
+                    {
+                        "label": "Hafenbahn · Deutsche Bundesbahn",
+                        "value": "889",
+                        "children": []
+                    },
+                    {
+                        "label": "Hafenbahn · Deutsche Bundesbahn",
+                        "value": "890",
+                        "children": []
+                    },
+                    {
+                        "label": "Hafenbahn · Deutsche Bundesbahn",
+                        "value": "891",
+                        "children": []
+                    },
+                    {
+                        "label": "Hafenbahn · Deutsche Bundesbahn",
+                        "value": "892",
+                        "children": []
+                    },
+                    {
+                        "label": "Hafenbahn · Deutsche Bundesbahn",
+                        "value": "888",
+                        "children": []
+                    },
+                    {
+                        "label": "Hafenbahn · Deutsche Bundesbahn",
+                        "value": "685",
+                        "children": []
+                    },
+                    {
+                        "label": "Hafenbahn · Deutsche Bundesbahn",
+                        "value": "687",
+                        "children": []
+                    },
+                    {
+                        "label": "Hafenbahn · Deutsche Bundesbahn",
+                        "value": "686",
+                        "children": []
+                    },
+                    {
+                        "label": "Hafenbahn · Deutsche Bundesbahn",
+                        "value": "158",
+                        "children": []
+                    },
+                    {
+                        "label": "Hafenbahn · Deutsche Bundesbahn",
+                        "value": "159",
+                        "children": []
+                    },
+                    {
+                        "label": "Schifffahrt · Rheinhäfen",
+                        "value": "894",
+                        "children": []
+                    },
+                    {
+                        "label": "Schifffahrt · Rheinhäfen",
+                        "value": "690",
+                        "children": []
+                    },
+                    {
+                        "label": "Schifffahrt · Rheinhäfen",
+                        "value": "689",
+                        "children": []
+                    },
+                    {
+                        "label": "Schifffahrt · Rheinhäfen",
+                        "value": "688",
+                        "children": []
+                    },
+                    {
+                        "label": "Schifffahrt · Rheinhäfen",
+                        "value": "893",
+                        "children": []
+                    },
+                    {
+                        "label": "Schifffahrt · Rheinhäfen",
+                        "value": "691",
+                        "children": []
+                    },
+                    {
+                        "label": "Schifffahrt · Rheinhäfen",
+                        "value": "161",
+                        "children": []
+                    },
+                    {
+                        "label": "Schifffahrt · Rheinhäfen",
+                        "value": "160",
+                        "children": []
+                    },
+                    {
+                        "label": "Luftverkehr",
+                        "value": "693",
+                        "children": []
+                    },
+                    {
+                        "label": "Luftverkehr",
+                        "value": "163",
+                        "children": []
+                    },
+                    {
+                        "label": "Luftverkehr",
+                        "value": "895",
+                        "children": []
+                    },
+                    {
+                        "label": "Luftverkehr",
+                        "value": "694",
+                        "children": []
+                    },
+                    {
+                        "label": "Luftverkehr",
+                        "value": "162",
+                        "children": []
+                    },
+                    {
+                        "label": "Luftverkehr",
+                        "value": "896",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,3 +1,4 @@
 .venv
-docs
 work
+__pycache__
+*.csv

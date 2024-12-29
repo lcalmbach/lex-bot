@@ -5,3 +5,6 @@ langchain-openai
 openai
 tiktoken
 chromadb
+streamlit_option_menu
+streamlit-aggrid
+streamlit-tree-select
