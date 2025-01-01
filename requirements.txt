@@ -4,8 +4,7 @@ langchain_community
 langchain-openai
 openai
 tiktoken
-chromadb
 streamlit_option_menu
 streamlit-aggrid
 streamlit-tree-select
-pysqlite3-binary>=0.4.6
+faiss-cpu
