@@ -6,10 +6,10 @@ import lex_bot
 # https://icons.getbootstrap.com/?q=image
 menu_icons = ["house", "bank", "chat-dots"]
 
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 __author__ = "Lukas Calmbach"
 __author_email__ = "lcalmbach@gmail.com"
-VERSION_DATE = "2024-12-28"
+VERSION_DATE = "2025-01-01"
 APP_NAME = "Lex-Bot"
 GIT_REPO = "https://github.com/lcalmbach/lex-bot"
 SOURCE_URL = "https://data.bs.ch/explore/dataset/100354/"

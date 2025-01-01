@@ -1,3 +1,7 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import streamlit as st
 import pandas as pd
 import os
@@ -20,10 +24,6 @@ from langchain_core.documents import Document
 
 from helper import clean_folder
 import texts
-
-import pysqlite3
-import sys
-sys.modules["sqlite3"] = pysqlite3
 
 # Feldgrößen-Limit deutlich heraufsetzen (z.B. auf sys.maxsize)
 csv.field_size_limit(2**31 - 1)
