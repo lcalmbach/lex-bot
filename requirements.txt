@@ -8,4 +8,4 @@ streamlit_option_menu
 streamlit-aggrid
 streamlit-tree-select
 faiss-cpu
-pysqlite3
+pysqlite3-binary
