@@ -4,8 +4,9 @@ import os
 import re
 import openai
 
-from langchain.vectorstores import Chroma
-from langchain_openai import OpenAIEmbeddings
+from langchain.vectorstores import FAISS
+from langchain.embeddings.openai import OpenAIEmbeddings
+
 from langchain_community.llms import OpenAI
 from langchain.chains import RetrievalQA
 import csv
@@ -31,7 +32,8 @@ openai.api_key  = os.environ['OPENAI_API_KEY']
 persist_directory = './docs/chroma/'
 parquet_file = Path("./100354.parquet")
 csv_file = Path("./100354.csv")
-
+faiss_index_path = "faiss_index"
+embeddings = OpenAIEmbeddings()
 
 class Lex():
     def __init__(self):
@@ -40,10 +42,10 @@ class Lex():
         #    self.data = pd.read_parquet(parquet_file)
         #else:
         self.data = self.load_data(force=False)
-        self.vectorstore = Chroma(
-            persist_directory=persist_directory,
-            embedding_function=OpenAIEmbeddings(),
+        self.vectorstore = FAISS.load_local(
+            "faiss_index", embeddings, allow_dangerous_deserialization=True
         )
+        
         self.hierarchy = self.get_hierarchy_tree()
         
 
@@ -117,15 +119,14 @@ class Lex():
         return data
     
     def embed_text(self, data):
-        # Clean persist directory (optional)
-        clean_folder(Path(persist_directory))
+        # Initialize the embedding model
         embedding_model = OpenAIEmbeddings()
-        chromadb.api.client.SharedSystemClient.clear_system_cache()
-        documents = []
-        vectorstore = Chroma(persist_directory=persist_directory, embedding_function=embedding_model)
-        cnt=1
+        # Prepare FAISS vectorstore
+        vectorstore = FAISS.from_texts(['x'], embeddings)
+        
+        cnt = 1
         for index, row in data.reset_index().iterrows():
-            if pd.notnull(row['txt_filename']) and str(row['txt_filename']).strip():
+            if pd.notnull(row['text_of_law']) and str(row['text_of_law']).strip():
                 print(f"Adding documents {row['title_de'][:50]} {cnt}/{len(data)} to vectorstore")
                 chunks = row['text_of_law'].split("\n§")
                 ids = []
@@ -135,10 +136,14 @@ class Lex():
                     document = Document(page_content='§' + chunk.strip(), metadata={"id": f"{str(index)}-{id}", "doc": str(index)})
                     documents.append(document)
                     ids.append(f"{str(index)}-{id}")
-                    id+=1
-                vectorstore.add_documents(documents=documents, ids=ids)
+                    id += 1
+                vectorstore.add_documents(documents)
                 sleep(1)
-            cnt+=1
+            cnt += 1
+        
+        # Save the FAISS index
+        vectorstore.save_local("faiss_index")
+
 
     def get_vectorstore_content(self):
         return self.vectorstore.get()
