@@ -13,7 +13,6 @@ import csv
 import json
 from time import sleep
 from streamlit_tree_select import tree_select
-import chromadb.api
 from pathlib import Path
 from st_aggrid import AgGrid
 from st_aggrid.grid_options_builder import GridOptionsBuilder
@@ -29,7 +28,6 @@ sys.modules["sqlite3"] = pysqlite3
 # Feldgrößen-Limit deutlich heraufsetzen (z.B. auf sys.maxsize)
 csv.field_size_limit(2**31 - 1)
 openai.api_key  = os.environ['OPENAI_API_KEY']
-persist_directory = './docs/chroma/'
 parquet_file = Path("./100354.parquet")
 csv_file = Path("./100354.csv")
 faiss_index_path = "faiss_index"
