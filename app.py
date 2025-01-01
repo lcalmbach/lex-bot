@@ -31,6 +31,7 @@ def init():
         layout="wide",
         initial_sidebar_state="expanded",
     )
+    
 
 
 def main():

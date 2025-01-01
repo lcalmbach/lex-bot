@@ -68,10 +68,13 @@ class Lex():
                         level3_rows = self.data.reset_index()[
                             (self.data['identifier'].str.startswith(level2_row['identifier'])) & (self.data['identifier'].str.len() == 3)
                         ].sort_values(by='identifier', ascending=True)
+
                         if len(level3_rows)>0:
                             for index, level3_row in level3_rows.iterrows():
                                 level3_node = {"label": level3_row["title"], "value": str(index), "children": []}
-                                level2_node["children"].append(level3_node)
+                                if level3_node not in level2_node["children"]:
+                                    level2_node["children"].append(level3_node)
+                            
                 
             with open("rechtsgebiet.json", "w", encoding="utf-8") as file:
                 json.dump(tree, file, ensure_ascii=False, indent=4) 
@@ -125,7 +128,6 @@ class Lex():
         cnt = 1
         for index, row in data.reset_index().iterrows():
             if pd.notnull(row['text_of_law']) and str(row['text_of_law']).strip():
-                print(f"Adding documents {row['title_de'][:50]} {cnt}/{len(data)} to vectorstore")
                 chunks = row['text_of_law'].split("\n§")
                 ids = []
                 documents = []
@@ -151,7 +153,10 @@ class Lex():
         st.write(result["embeddings"][0])
         
     def show_info(self):
-        st.markdown(texts.info.format(len(self.data)))
+        cols = st.columns([1, 3, 1])
+        with cols[1]:
+            st.image("./splash_screen.webp", width=800)
+            st.markdown(texts.info.format(len(self.data)))
 
     def show_stats(self):
         st.write("## Gesetzessammlung")
@@ -195,6 +200,7 @@ class Lex():
 
     def show_chat(self):
         question = st.text_input(texts.question_label, texts.default_question)
+        num_of_results = st.sidebar.number_input("Anzahl Resultate", 3, 50, 3)
         if st.button("Frage stellen"):
             retriever = self.vectorstore.as_retriever(search_kwargs={"k": 3})
             llm = OpenAI(temperature=0.0)
@@ -206,13 +212,25 @@ class Lex():
                 retriever=retriever
             )
             question = texts.llm_context.format(question)
-            docs_ss = self.vectorstore.similarity_search(question,k=3)
-            
-            st.write(qa_chain.invoke(question))
+            docs_ss = self.vectorstore.similarity_search(question,k=num_of_results)
+            response = qa_chain.invoke(question)
+            st.write(response["result"])
             with st.expander("Dokumente"):
                 for doc in docs_ss:
                     link = self.data.loc[int(doc.metadata['doc'])]['original_url_de']
                     title = self.data.loc[int(doc.metadata['doc'])]['title_de']
                     st.markdown(f"[{title}]({link})")
                     st.write(doc.page_content)
-            
+        """
+        if st.button('DB ausgeben'):
+           for i in range(100):
+                doc_id =  self.vectorstore.index_to_docstore_id[i]
+                doc = self.vectorstore.docstore.search(doc_id)
+                st.write(f"Document ID: {i}")
+                st.write(f"Content: {doc.page_content}")
+                st.write(f"Metadata: {doc.metadata}")
+                embedding = embeddings.embed_query(doc.page_content)
+                st.write(embedding)
+                st.write("-" * 40)
+                i+=1
+        """
