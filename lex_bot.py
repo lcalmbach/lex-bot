@@ -269,28 +269,30 @@ class Lex():
         
 
     def show_chat(self):
-        question = st.text_input(texts.question_label, texts.default_question)
-        num_of_results = st.sidebar.number_input("Anzahl Resultate", 3, 50, 3)
-        if st.button("Frage stellen"):
-            retriever = self.vectorstore.as_retriever(search_kwargs={"k": 3})
-            llm = OpenAI(temperature=0.0)
+        cols = st.columns([1, 3, 1])
+        with cols[1]:
+            question = st.text_input(texts.question_label, texts.default_question)
+            num_of_results = st.sidebar.number_input("Anzahl Resultate", 3, 50, 3)
+            if st.button("Frage stellen"):
+                retriever = self.vectorstore.as_retriever(search_kwargs={"k": 3})
+                llm = OpenAI(temperature=0.0)
 
-            # Build QA chain
-            qa_chain = RetrievalQA.from_chain_type(
-                llm=llm,
-                chain_type="stuff",
-                retriever=retriever
-            )
-            question = texts.llm_context.format(question)
-            docs_ss = self.vectorstore.similarity_search(question,k=num_of_results)
-            response = qa_chain.invoke(question)
-            st.write(response["result"])
-            with st.expander("Dokumente"):
-                for doc in docs_ss:
-                    link = self.data.loc[int(doc.metadata['doc'])]['original_url_de']
-                    title = self.data.loc[int(doc.metadata['doc'])]['title_de']
-                    st.markdown(f"[{title}]({link})")
-                    st.write(doc.page_content)
+                # Build QA chain
+                qa_chain = RetrievalQA.from_chain_type(
+                    llm=llm,
+                    chain_type="stuff",
+                    retriever=retriever
+                )
+                question = texts.llm_context.format(question)
+                docs_ss = self.vectorstore.similarity_search(question,k=num_of_results)
+                response = qa_chain.invoke(question)
+                st.write(response["result"])
+                with st.expander("Dokumente"):
+                    for doc in docs_ss:
+                        link = self.data.loc[int(doc.metadata['doc'])]['original_url_de']
+                        title = self.data.loc[int(doc.metadata['doc'])]['title_de']
+                        st.markdown(f"[{title}]({link})")
+                        st.write(doc.page_content)
         """
         if st.button('DB ausgeben'):
            for i in range(100):
