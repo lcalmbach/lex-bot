@@ -29,7 +29,7 @@ import texts
 csv.field_size_limit(2**31 - 1)
 openai.api_key  = os.environ['OPENAI_API_KEY']
 parquet_file = Path("./100354.parquet")
-csv_file = Path("./100354.csv")
+# csv_file = Path("./100354.csv")
 faiss_index_path = "faiss_index"
 embeddings = OpenAIEmbeddings()
 
@@ -141,8 +141,26 @@ class Lex():
 
 
     def load_data(self, force:bool=False)->bool:
+        """
+        Loads data from a parquet file if it exists, otherwise reads from a CSV file, processes it, and saves it as a parquet file.
+
+        Args:
+            force (bool): If True, forces reloading data from the CSV file even if the parquet file exists. Default is False.
+
+        Returns:
+            bool: Returns the processed DataFrame.
+
+        The function performs the following steps:
+        1. Checks if the parquet file exists and if `force` is False.
+        2. If the parquet file exists and `force` is False, reads the data from the parquet file.
+        3. If the parquet file does not exist or `force` is True, reads the data from the CSV file.
+        4. Cleans the text data in the DataFrame.
+        5. Renames columns and changes data types as necessary.
+        6. Embeds text data.
+        7. Saves the processed DataFrame to a parquet file.
+        """
         def rename_columns():
-            df.rename(columns={'index': 'lex_index'}, inpcol_names_dictlace=True)
+            df.rename(columns={'index': 'lex_index'}, inplace=True)
             df['identifier'] = df['identifier'].astype(str)
         if parquet_file.is_file() and not force:
             df = pd.read_parquet(parquet_file)
@@ -154,12 +172,30 @@ class Lex():
             rename_columns()
             self.embed_text(df)
             df.to_parquet(parquet_file, index=False)
-            df.to_csv(csv_file, index=False)
+            # df.to_csv(csv_file, index=False)
             return df
         
-
-    def clean_all_texts(self, data):
-        def clean_text(text):
+    def clean_all_texts(self, data: pd.DataFrame) -> pd.DataFrame:
+        """
+        Cleans all texts in the provided DataFrame by removing empty lines, leading whitespaces,
+        and merging lines that end with specific patterns.
+        Args:
+            data (pd.DataFrame): A DataFrame containing a column 'text_of_law' with text data to be cleaned.
+        Returns:
+            pd.DataFrame: The DataFrame with cleaned text data in the 'text_of_law' column.
+        """
+        def clean_text(text: str)->str:
+            """
+            Cleans the input text by performing the following operations:
+            1. Removes empty lines or lines filled only with whitespace.
+            2. Removes leading whitespaces at the beginning of each line.
+            3. Joins lines that end with specific patterns such as numbers followed by a period or parenthesis, 
+               or lowercase letters followed by a period or parenthesis.
+            Args:
+                text (str): The input text to be cleaned.
+            Returns:
+                str: The cleaned text.
+            """
             text = re.sub(r'(?m)^\s*\n', '', text)
             # 1) Leere (oder nur mit Whitespace gefüllte) Zeilen entfernen
             text = re.sub(r'(?m)^[ \t]*\n', '', text)
@@ -167,7 +203,7 @@ class Lex():
             # whitespaces am Beginn der Zeile entfernen
             text = re.sub(r'(?m)^[ \t]+', '', text)
             # 2) Zeilen zusammenführen, wenn sie z.B. mit "1." oder "1)" oder "a)" aufhören
-            text = re.sub(r'(?m)^(\d+|§ \d+|\d+\.|\d+\)|[a-z]\))\s*\n', r'\1 ', text)
+            text = re.sub(r'(?m)^(\d+|§ \d+|\d+\.|\d+\)|[a-z]\)|[a-z]\.)\s*\n', r'\1 ', text)
             return text
 
         for index, row in data.iterrows():
@@ -178,45 +214,87 @@ class Lex():
                 data.loc[index,'text_of_law'] = cleaned_text
         return data
     
-    def embed_text(self, data):
-        # Initialize the embedding model
-        embedding_model = OpenAIEmbeddings()
-        # Prepare FAISS vectorstore
-        vectorstore = FAISS.from_texts(['x'], embeddings)
-        
-        cnt = 1
-        for index, row in data.reset_index().iterrows():
-            if pd.notnull(row['text_of_law']) and str(row['text_of_law']).strip():
-                chunks = row['text_of_law'].split("\n§")
-                ids = []
-                documents = []
-                id = 1
-                for chunk in chunks:
-                    document = Document(page_content='§' + chunk.strip(), metadata={"id": f"{str(index)}-{id}", "doc": str(index)})
-                    documents.append(document)
-                    ids.append(f"{str(index)}-{id}")
-                    id += 1
-                vectorstore.add_documents(documents)
-                sleep(1)
-            cnt += 1
-        
-        # Save the FAISS index
-        vectorstore.save_local("faiss_index")
+    def embed_text(self, data: pd.DataFrame):
+        """
+        Embeds text data from a pandas DataFrame into a FAISS vector store.
+        Args:
+            data (pd.DataFrame): A DataFrame containing the text data to be embedded. 
+                                 The DataFrame should have columns 'text_of_law' and 'title_de'.
+        Returns:
+            None
+        This function processes each row in the DataFrame, splits the 'text_of_law' column into chunks,
+        and embeds these chunks into a FAISS vector store. The vector store is then saved locally.
+        """
+        with st.spinner("Embedding Texte..."):
+            # Prepare FAISS vectorstore
+            vectorstore = FAISS.from_texts(['x'], embeddings)
+            
+            cnt = 1
+            for index, row in data.reset_index().iterrows():
+                if pd.notnull(row['text_of_law']) and str(row['text_of_law']).strip():
+                    print(f"Processing document {row['title_de'][:50]}: {cnt}/{len(data)}")
+                    chunks = row['text_of_law'].split("\n§")
+                    ids = []
+                    documents = []
+                    id = 1
+                    for chunk in chunks:
+                        document = Document(page_content='§' + chunk.strip(), metadata={"id": f"{str(index)}-{id}", "doc": str(index)})
+                        documents.append(document)
+                        ids.append(f"{str(index)}-{id}")
+                        id += 1
+                    vectorstore.add_documents(documents)
+                    sleep(1)
+                cnt += 1
+        with st.spinner("Bilde FAISS Index..."):    
+            # Save the FAISS index
+            vectorstore.save_local("faiss_index")
 
-
-    def get_vectorstore_content(self):
-        return self.vectorstore.get()
-
-    def get_embeddings(self):
-        result = self.vectorstore.get(include=["documents", "embeddings", "metadatas"])
         
     def show_info(self):
+        """
+        Displays information in a Streamlit app.
+
+        This method creates a layout with three columns and displays an image
+        and formatted text in the middle column. The image is loaded from a 
+        file named "splash_screen.webp" and the text is formatted using the 
+        length of the data attribute.
+
+        Returns:
+            None
+        """
         cols = st.columns([1, 3, 1])
         with cols[1]:
             st.image("./splash_screen.webp", width=800)
             st.markdown(texts.info.format(len(self.data)))
 
     def show_stats(self):
+        """
+        Displays the statistics and details of the legal collection.
+        This method filters and displays the legal data based on user input from the sidebar.
+        Users can filter the data by title and hierarchy, and view the filtered results in an interactive table.
+        When a row is selected, detailed information about the selected law is displayed, including a link to the original document and the text of the law if available.
+        Sidebar Inputs:
+        - Text input to filter by title.
+        - Hierarchy selection using a tree structure.
+        Table Columns:
+        - title_de: Title in German.
+        - title: Title.
+        - systematic_number: Systematic number.
+        - keywords_de: Keywords in German.
+        - version_active_since: Version active since.
+        Interactive Table:
+        - Displays the filtered data.
+        - Allows single row selection.
+        Selected Row Details:
+        - Displays detailed information about the selected law.
+        - Provides a link to the original document.
+        - Shows the text of the law if available.
+        Notes:
+        - If no row is selected, an informational message is displayed.
+        - If the selected law has no text, an informational message is displayed.
+        Returns:
+        None
+        """
         st.write("## Gesetzessammlung")
         filtered_data = self.data[self.data['id'].notnull()].copy()
         filtered_data["title_de"] = filtered_data["title_de"].fillna("")
@@ -269,6 +347,27 @@ class Lex():
         
 
     def show_chat(self):
+        """
+        Displays a chat interface using Streamlit.
+
+        This method creates a chat interface where users can input a question and specify the number of results to retrieve.
+        It uses a vector store retriever and an OpenAI language model to generate responses to the user's questions.
+        The results are displayed along with relevant documents.
+
+        The interface includes:
+        - A text input for the question.
+        - A sidebar number input to specify the number of results.
+        - A button to submit the question and retrieve the response.
+        - An expander to show the retrieved documents with links and content.
+
+        Additionally, there is a commented-out section that, when enabled, allows the user to output the database content.
+
+        Args:
+            None
+
+        Returns:
+            None
+        """
         cols = st.columns([1, 3, 1])
         with cols[1]:
             question = st.text_input(texts.question_label, texts.default_question)
@@ -293,16 +392,4 @@ class Lex():
                         title = self.data.loc[int(doc.metadata['doc'])]['title_de']
                         st.markdown(f"[{title}]({link})")
                         st.write(doc.page_content)
-        """
-        if st.button('DB ausgeben'):
-           for i in range(100):
-                doc_id =  self.vectorstore.index_to_docstore_id[i]
-                doc = self.vectorstore.docstore.search(doc_id)
-                st.write(f"Document ID: {i}")
-                st.write(f"Content: {doc.page_content}")
-                st.write(f"Metadata: {doc.metadata}")
-                embedding = embeddings.embed_query(doc.page_content)
-                st.write(embedding)
-                st.write("-" * 40)
-                i+=1
-        """
+        

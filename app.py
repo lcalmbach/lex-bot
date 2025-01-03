@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 import lex_bot
 
 
-# https://icons.getbootstrap.com/?q=image
+# more icons: https://icons.getbootstrap.com/?q=image
 menu_icons = ["house", "bank", "chat-dots"]
 
 __version__ = "0.0.4"
@@ -25,6 +25,18 @@ APP_INFO = f"""<div style="background-color:silver; padding: 10px;border-radius:
 APP_ICON = "⚖️"
 
 def init():
+    """
+    Initializes the Streamlit application with specific configuration settings.
+
+    This function sets the page configuration for the Streamlit app, including
+    the page title, page icon, layout, and initial sidebar state.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+    """
     st.set_page_config(
         page_title="Lex-Bot",
         page_icon=APP_ICON,
@@ -33,8 +45,28 @@ def init():
     )
     
 
-
 def main():
+    """
+    Main function to initialize the application and handle the sidebar menu actions.
+
+    This function performs the following steps:
+    1. Initializes the application by calling the `init()` function.
+    2. Checks if "lex" is in the Streamlit session state; if not, it initializes a new `Lex` bot instance.
+    3. Creates a sidebar with a title and an option menu for navigation.
+    4. Determines the selected menu action and calls the corresponding method on the `Lex` bot instance:
+        - `show_info()` for the first menu option.
+        - `show_stats()` for the second menu option.
+        - `show_chat()` for the third menu option.
+    5. Adds additional information to the sidebar using markdown.
+
+    Note:
+        - `st` refers to the Streamlit module.
+        - `lex_bot` is a module containing the `Lex` class.
+        - `APP_NAME`, `APP_ICON`, `menu_options`, `menu_icons`, and `APP_INFO` are predefined constants.
+
+    Returns:
+        None
+    """
     init()
     if "lex" not in st.session_state:
         st.session_state.lex = lex_bot.Lex()
