@@ -32,7 +32,7 @@ parquet_file = Path("./100354.parquet")
 # csv_file = Path("./100354.csv")
 faiss_index_path = "faiss_index"
 embeddings = OpenAIEmbeddings()
-
+GRID_COLUMNS = ["title_de", "title", "systematic_number", "keywords_de", "version_active_since"]
 col_names_dict = {
     "parent":"ID - übergeordnete Systematik",
     "children":"ID - untergeordnete Systematiken",
@@ -162,6 +162,9 @@ class Lex():
         def rename_columns():
             df.rename(columns={'index': 'lex_index'}, inplace=True)
             df['identifier'] = df['identifier'].astype(str)
+            df["title_de"] = df["title_de"].fillna("")
+            df["text_of_law"] = df["text_of_law"].fillna("")
+
         if parquet_file.is_file() and not force:
             df = pd.read_parquet(parquet_file)
             rename_columns
@@ -298,11 +301,17 @@ class Lex():
         st.write("## Gesetzessammlung")
         filtered_data = self.data[self.data['id'].notnull()].copy()
         filtered_data["title_de"] = filtered_data["title_de"].fillna("")
+        filtered_data["text_of_law"] = filtered_data["text_of_law"].fillna("")
+
         with st.sidebar:
-            filter_title = st.text_input("Filtern nach Titel", "")
+            filter_title = st.text_input("Titel enthält", "")
+            filter_text = st.text_input("Gesetzestext enthält", "")
+            st.markdown("Einschränkung nach Rechtsgebiet")
             filter_hierarchy = tree_select(self.hierarchy)
-        if filter_title:
+        if len(filter_title)>0:
             filtered_data = filtered_data[filtered_data["title_de"].str.contains(filter_title, case=False)]
+        if len(filter_text)>0:
+            filtered_data = filtered_data[filtered_data["text_of_law"].str.contains(filter_text, case=False)]
         if len(filter_hierarchy["checked"])>0:
             # ["2","3,4,5"] > ["2","3","4","5"]
             checked_list = []
@@ -311,8 +320,7 @@ class Lex():
             numeric_indices = list(map(int, checked_list))  # Or: [int(idx) for idx in indices]
             numeric_indices = [idx for idx in numeric_indices if idx in filtered_data.index]
             filtered_data = filtered_data.loc[numeric_indices]
-        
-        filtered_data = filtered_data[["title_de", "title", "systematic_number", "keywords_de", "version_active_since"]]
+        filtered_data = filtered_data[GRID_COLUMNS]
         gb = GridOptionsBuilder.from_dataframe(filtered_data)
         gb.configure_selection("single")  # Single row selection
         grid_options = gb.build()
@@ -331,6 +339,7 @@ class Lex():
             index = selected_row.iloc[0]['index']
             # Convert selected row (dictionary) to DataFrame
             text_of_law = self.data.loc[index]['text_of_law']
+            html = self.data.loc[index]['gesetzestext_html']
             url = self.data.loc[index]['original_url_de']
             selected_row.rename(columns=col_names_dict, inplace=True)
             selected_row_dict = selected_row.iloc[0]  # First (and only) selected row
@@ -339,7 +348,8 @@ class Lex():
             row_df = pd.DataFrame(selected_row_dict)
             st.markdown(row_df.to_html(escape=False), unsafe_allow_html=True)
             if text_of_law:
-                st.write(text_of_law.replace('\n', '<br>'), unsafe_allow_html=True)
+                st.write(html, unsafe_allow_html=True)
+                #st.write(text_of_law.replace('\n', '<br>'), unsafe_allow_html=True)
             else:
                 st.info("Kein Gesetzestext verfügbar")
         else:

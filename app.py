@@ -6,7 +6,7 @@ import lex_bot
 # more icons: https://icons.getbootstrap.com/?q=image
 menu_icons = ["house", "bank", "chat-dots"]
 
-__version__ = "0.0.5"
+__version__ = "0.0.6"
 __author__ = "Lukas Calmbach"
 __author_email__ = "lcalmbach@gmail.com"
 VERSION_DATE = "2025-01-03"
